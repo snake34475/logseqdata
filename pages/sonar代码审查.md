@@ -8,21 +8,17 @@
 	  > 因为官网某些地方没有成功运行，以下是成功运行的步骤
 		- 1.首先本地有docker，docker配置下阿里云镜像
 		  
-		  	[阿里云镜像配置指南](https://help.aliyun.com/document_detail/60750.html) 
-		  
-		  	2.拉取镜像
+		  	[阿里云镜像配置指南](https://help.aliyun.com/document_detail/60750.html)
+		- 2.拉取镜像
 		  
 		  ```
 		  $ docker pull sonarqube
 		  ```
-		  
-		  	3.运行镜像,官网那种方法我没有看懂，我使用了可视化运行
+		- 3.运行镜像,官网那种方法我没有看懂，我使用了可视化运行
 		  
 		  ![image-20230113140106316](https://s2.loli.net/2023/01/13/lpDfZYbFLP9iSn8.png)
-		  
-		  	4.打开[http://localhost:9000/](http://localhost:9000/)，进行登录,初始密码和账号都为admin
-		  
-		  	5.安装中文，第一次进入插件上方有一个提示点击后才能安装
+		- 4.打开[http://localhost:9000/](http://localhost:9000/)，进行登录,初始密码和账号都为admin
+		- 5.安装中文，第一次进入插件上方有一个提示点击后才能安装
 		  
 		  ![image-20230113140319493](https://s2.loli.net/2023/01/13/EmRhFQAypq8YIG2.png)
 ### 安装sonar-scanner
