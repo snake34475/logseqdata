@@ -1,11 +1,11 @@
 - 初始化项目
-  首先新建一个项目文件夹，之后在内部执行命令
-  ```bash
-      npx express-generator
-  	cd server
-      npm install
-      SET DEBUG = server:* & npm start
-  ```
+	- 首先新建一个项目文件夹，之后在内部执行命令
+	  ```bash
+	      npx express-generator
+	  	cd server
+	      npm install
+	      SET DEBUG = server:* & npm start
+	  ```
 - 1. 安装并连接redis
   `npm install redis –save`
   2. 新建config文件命名db.js
