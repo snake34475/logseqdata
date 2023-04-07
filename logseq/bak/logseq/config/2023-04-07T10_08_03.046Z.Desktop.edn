@@ -342,9 +342,8 @@
  ;;     ;use triple underscore `___` for slash `/` in page title
  ;;     ;use Percent-encoding for other invalid characters
  :file/name-format :triple-lowbar
- :ui/show-brackets? false
+ :ui/show-brackets? true
  :journal/page-title-format "yyyy年MM月dd日"
- :publishing/all-pages-public? false
 
  ;; specify the format of the filename for journal files
  ;; :journal/file-name-format "yyyy_MM_dd"
