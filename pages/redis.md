@@ -1,4 +1,5 @@
 - 运行命令
+  id:: 642fe3f2-2c92-46a0-8d55-33706fd61e70
   ```
   redis-server.exe
   ```
