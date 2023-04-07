@@ -1,5 +1,4 @@
 - [[express基础]]
-	- JavaScript
 	- [[express 文章项目实战]]
-- 软件
+- [[软件]]
 	- [[笔记软件]]
