@@ -2,3 +2,10 @@
 - EditThisCookie 页面cookie管理器
 - Fatkun图片批量下载
 - FeHelper(前端助手) 一系列前端工具
+- Vimium vim操作
+- 七牛云图床
+- 书签侧边栏
+- 微信读书助手
+-
+- React Developer Tools react开发工具
+- Vue.js devtools vue开发工具
