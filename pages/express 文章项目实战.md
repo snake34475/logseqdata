@@ -12,8 +12,7 @@
   ```js
        exports.redisConfig = {host: '127.0.0.1', port: '6379', ttl: 5 * 60 * 1000}
   ```
-  3.utils文件新建redisDB.js文件
-  [[express项目-redisDB.js]]
+  3.utils文件新建redisDB.js文件 [[express项目-redisDB.js]]
 -
 -
 -
