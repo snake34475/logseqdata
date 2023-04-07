@@ -6,15 +6,15 @@
 	  例如使用vim操作
 ## web页面
 	- 渲染引擎
-	  
-	  ```
-	  Mozilla/5.0 (platform;rv:geckoversion)engine/egineVersion explorer/
-	  explorerVersion
-	  ```
-	  
-	  	控制台输入 `navigator.userAgent`
-	  
-	  ![image-20230110155745254](https://s2.loli.net/2023/01/10/eKFpHo58QyYSnLs.png)
+	  collapsed:: true
+		- ```
+		  Mozilla/5.0 (platform;rv:geckoversion)engine/egineVersion explorer/
+		  explorerVersion
+		  ```
+		  
+		  	控制台输入 `navigator.userAgent`
+		  
+		  ![image-20230110155745254](https://s2.loli.net/2023/01/10/eKFpHo58QyYSnLs.png)
 		- Mozilla/5.0 通用标记，表示和MOzilla兼容，现代浏览器都是以此开头
 		- Mozilla/5.0 通用标记，表示和MOzilla兼容，现代浏览器都是以此开头
 		- platform 说明运行的原生系统，例如此处是window win64 x64架构
@@ -22,6 +22,7 @@
 		- engine/egineVersion 为浏览器渲染引擎对应的引擎版本号，最早webkit是苹果公司开发，然后转手给谷歌，
 		- explorerVersion 表示浏览器的型号和版本，写在后面的浏览器型号和版本表示备用选项
 	- ### 渲染流程
+	  collapsed:: true
 		- 构建DOM（document Object Model）树  也就是文档对象模型
 		  
 		  	浏览器器收到html，根据嵌套结构和语法生成一颗dom树
@@ -33,22 +34,22 @@
 		- 浏览器将样式附在dom书上，并不是从左到右，而是从右到左（ 如此会减少大量的回溯操作）
 			- 先去寻找span元素，
 				- 匹配后找p元素
-				- 匹配好后找div元素
-				  > 但也要注意，最后一个元素最好为一个唯一元素，若为标签元素也会产生一定的性能消耗
-				  
-				  ```
-				  <style>
-				  div p span .last{
-				    color:red
-				  }
-				  </style>
-				  ```
-#### 布局和绘制
-
-	布局：绘制四方盒子，按照边距排列好
-​	绘制：绘制样式，例如边框样式，背景颜色等等等
-
-	布局和绘制是按照先后顺序来执行的，也就是说重新布局一定也会重新绘制，但是重新绘制不一定引起重新布局
+		- 匹配好后找div元素
+		  > 但也要注意，最后一个元素最好为一个唯一元素，若为标签元素也会产生一定的性能消耗
+		  
+		  ```
+		  <style>
+		  div p span .last{
+		    color:red
+		  }
+		  </style>
+		  ```
+	- #### 布局和绘制
+	  
+	  	布局：绘制四方盒子，按照边距排列好
+	  ​	绘制：绘制样式，例如边框样式，背景颜色等等等
+	  
+	  	布局和绘制是按照先后顺序来执行的，也就是说重新布局一定也会重新绘制，但是重新绘制不一定引起重新布局
 - #### 前端对于标签的性能优化
   id:: ce1f8158-fe10-4f97-9c29-f59b9cb221ad
   避免编写复杂的dom结构，减少dom层级，
