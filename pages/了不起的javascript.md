@@ -1,30 +1,27 @@
-### 学习类 	
-
-	前端的知识点很多很细碎，但是对于开发者并不需要都记住而是形成自己的知识框架，然后去不断丰富
-
-	只有先形成框架才能有效把繁杂的知识点内化成自己的经验，罗振宇说：“把新知识缝合到自己原有的知识体系中”，可以避免在一些无关知识点上消耗更多时间
-### 硬件类
-
-	为了高效开发的去选择硬件和软件，为自己未来的时间投资
-例如使用vim操作
+- ### 学习类
+	- 前端的知识点很多很细碎，但是对于开发者并不需要都记住而是形成自己的知识框架，然后去不断丰富
+	  	只有先形成框架才能有效把繁杂的知识点内化成自己的经验，罗振宇说：“把新知识缝合到自己原有的知识体系中”，可以避免在一些无关知识点上消耗更多时间
+- ### 硬件类
+	- 为了高效开发的去选择硬件和软件，为自己未来的时间投资
+	  例如使用vim操作
 ## web页面
-- ### LATER 渲染引擎
-  
-  ```
-  Mozilla/5.0 (platform;rv:geckoversion)engine/egineVersion explorer/
-  explorerVersion
-  ```
-  
-  	控制台输入 `navigator.userAgent`
-  
-  ![image-20230110155745254](https://s2.loli.net/2023/01/10/eKFpHo58QyYSnLs.png)
-  Mozilla/5.0 通用标记，表示和MOzilla兼容，现代浏览器都是以此开头
-	- Mozilla/5.0 通用标记，表示和MOzilla兼容，现代浏览器都是以此开头
-	- platform 说明运行的原生系统，例如此处是window win64 x64架构
-	- rv为gecko的发布版本号，以上例子没有
-	- engine/egineVersion 为浏览器渲染引擎对应的引擎版本号，最早webkit是苹果公司开发，然后转手给谷歌，
-	- explorerVersion 表示浏览器的型号和版本，写在后面的浏览器型号和版本表示备用选项
-### 渲染流程
+	- 渲染引擎
+	  
+	  ```
+	  Mozilla/5.0 (platform;rv:geckoversion)engine/egineVersion explorer/
+	  explorerVersion
+	  ```
+	  
+	  	控制台输入 `navigator.userAgent`
+	  
+	  ![image-20230110155745254](https://s2.loli.net/2023/01/10/eKFpHo58QyYSnLs.png)
+		- Mozilla/5.0 通用标记，表示和MOzilla兼容，现代浏览器都是以此开头
+		- Mozilla/5.0 通用标记，表示和MOzilla兼容，现代浏览器都是以此开头
+		- platform 说明运行的原生系统，例如此处是window win64 x64架构
+		- rv为gecko的发布版本号，以上例子没有
+		- engine/egineVersion 为浏览器渲染引擎对应的引擎版本号，最早webkit是苹果公司开发，然后转手给谷歌，
+		- explorerVersion 表示浏览器的型号和版本，写在后面的浏览器型号和版本表示备用选项
+	- ### 渲染流程
 - 构建DOM（document Object Model）树  也就是文档对象模型
   
   	浏览器器收到html，根据嵌套结构和语法生成一颗dom树
