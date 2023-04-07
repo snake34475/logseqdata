@@ -15,4 +15,4 @@
   3.utils文件新建redisDB.js文件 [[express项目-redisDB.js]]
   4.运行redis
   {{embed ((642fe3f2-2c92-46a0-8d55-33706fd61e70)) }}
--
+- 测试 你好
