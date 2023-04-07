@@ -69,8 +69,7 @@
   	所以退出github flow方案，但是也存在一些问题，例如部署，环境设置，发布，和issue管理等
   
   	gitlab避免出现的问题，取消develop分支，采取基于master签出和合并的策略，同时将issue和feature分支紧密结合
-  
-  流程如下
+- 流程如下
   
   	1）规划好master、pre-production、preoduction分支，master用于签出代码和合并代码，pre-preduction 从master分支签出，用于发布到预发布环境（测试环境）；production分支从pre-production分支签出，用于部署到线上环境
   
