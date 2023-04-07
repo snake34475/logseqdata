@@ -6,6 +6,12 @@
       npm install
       SET DEBUG = server:* & npm start
   ```
-- 安装并连接redis
+- 1. 安装并连接redis
   `npm install redis –save`
-- 新建js文件命名config db.js
+  2. 新建config文件命名db.js
+  ```js
+       exports.redisConfig = {host: '127.0.0.1', port: '6379', ttl: 5 * 60 * 1000}
+  ```
+-
+-
+-
