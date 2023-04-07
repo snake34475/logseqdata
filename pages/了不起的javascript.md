@@ -22,10 +22,10 @@
 		- engine/egineVersion 为浏览器渲染引擎对应的引擎版本号，最早webkit是苹果公司开发，然后转手给谷歌，
 		- explorerVersion 表示浏览器的型号和版本，写在后面的浏览器型号和版本表示备用选项
 	- ### 渲染流程
-- 构建DOM（document Object Model）树  也就是文档对象模型
-  
-  	浏览器器收到html，根据嵌套结构和语法生成一颗dom树
-  ​	影响dom树渲染因素有两个，一个是**标签数量**，一个是**嵌套层级**，同一标签数量，嵌套越深，时间越长
+		- 构建DOM（document Object Model）树  也就是文档对象模型
+		  
+		  	浏览器器收到html，根据嵌套结构和语法生成一颗dom树
+		  ​	影响dom树渲染因素有两个，一个是**标签数量**，一个是**嵌套层级**，同一标签数量，嵌套越深，时间越长
 - 构建CSSOM(Cascade Style Sheet Object Model)树 级联样式表对象模型
 - 构造渲染树
   
