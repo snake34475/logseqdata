@@ -6,4 +6,6 @@
       npm install
       SET DEBUG = server:* & npm start
   ```
+- 安装并连接redis
+  npm install redis –save
 -
