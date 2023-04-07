@@ -7,5 +7,5 @@
       SET DEBUG = server:* & npm start
   ```
 - 安装并连接redis
-  npm install redis –save
--
+  `npm install redis –save`
+- 新建js文件命名config db.js
