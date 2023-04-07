@@ -1,3 +1,4 @@
+- 沉浸式翻译 （强烈推荐！！！ 双语翻译）
 - Ajax Proxy 网页请求连接工具
 - EditThisCookie 页面cookie管理器
 - Fatkun图片批量下载
@@ -6,6 +7,6 @@
 - 七牛云图床
 - 书签侧边栏
 - 微信读书助手
--
+- 扩展管理器
 - React Developer Tools react开发工具
 - Vue.js devtools vue开发工具
