@@ -1,5 +1,6 @@
 - [[web开发]]
 	- [[代码格式]]
+	  collapsed:: true
 		- [[代码整洁]]
 		- [[sonar代码审查]]
 	- [[express]]
