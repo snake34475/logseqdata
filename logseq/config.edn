@@ -343,6 +343,7 @@
  ;;     ;use Percent-encoding for other invalid characters
  :file/name-format :triple-lowbar
  :ui/show-brackets? false
+ :journal/page-title-format "yyyy年MM月dd日"
 
  ;; specify the format of the filename for journal files
  ;; :journal/file-name-format "yyyy_MM_dd"
