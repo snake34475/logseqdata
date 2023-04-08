@@ -11,7 +11,7 @@
       console.log("连接成功")
   })
   
-  
+  //连接失败
   redis_client.on('error', (err) => {
       console.log(err)
   })
@@ -30,6 +30,7 @@
       return getTempKeys
   }
   
+  //redis扫描
   redis.scan = async (re, cursor = 0, count = 100) => {
       return await keys(cursor, re, count)
   }

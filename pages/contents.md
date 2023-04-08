@@ -8,7 +8,6 @@
 		- [[express基础]]
 		- [[express 文章项目实战]]
 	- [[数据库]]
-	  collapsed:: true
 		- [[redis]]
 	- [[http]]
 	  collapsed:: true
