@@ -1,5 +1,5 @@
+- #logseq
 - logseq的不同
-  collapsed:: true
 	- Logseq 是一个大纲。每个项目符号都是一个独立的个体
 	- Logseq 是一个网络大纲。可以随意拖拽每个项目重新组合
 - logseq的常用方式
