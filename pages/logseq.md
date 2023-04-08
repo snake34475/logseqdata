@@ -1,5 +1,4 @@
-# 我想要学习使用logseq
-collapsed:: true
+- # 我想要学习使用logseq
 	- ## Objective（目标）
 	  学习使用logseq工具，掌握其基本操作和功能，提高个人效率和学习效果。
 	- ## Key Results（关键结果）
