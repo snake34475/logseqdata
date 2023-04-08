@@ -54,7 +54,6 @@
 	  
 	  ```
 	  git flow hotfix start xxxx
-	  ​
 	  # 完成改动后修复bug的分支会被合并到master分支和develop分支中，同时删除该分支并切换到develop分支
 	  
 	  
@@ -69,14 +68,14 @@
   	所以退出github flow方案，但是也存在一些问题，例如部署，环境设置，发布，和issue管理等
   
   	gitlab避免出现的问题，取消develop分支，采取基于master签出和合并的策略，同时将issue和feature分支紧密结合
-- 流程如下
-  
-  	1）规划好master、pre-production、preoduction分支，master用于签出代码和合并代码，pre-preduction 从master分支签出，用于发布到预发布环境（测试环境）；production分支从pre-production分支签出，用于部署到线上环境
-  
-  	2）每次开发或修复bug，先创建issue，声明分支的主要作用和需要修改的代码，从master签出的分支，命名必须以之前创建的issue编号开头，然后再次分支上进行开发，这样好处是代码合并到master分支之后改对应的编号的issue就会自动关闭
-  
-  	3）feature分支开发完成之后使用rebase命令合并多个commits记录，防止commits记录混乱，执行完后再push到远程分支，同时提Merge Request
-  
-  	4）对代码进行检查和测试，通过后合并master分支，此时master分支处于可测试，可运行，可部署到开发环境进行测试
-  
-  	5）master分支测试通过，删除feature分支，同时向pre-production分支发起Merge Request进行测试，通过后向production发起Merge Request，合并后更新线上，如果分支遇到紧急更新，可以不删除feature分支，直接feature合并到pre-production进行测试
+	- 流程如下
+	  
+	  	1）规划好master、pre-production、preoduction分支，master用于签出代码和合并代码，pre-preduction 从master分支签出，用于发布到预发布环境（测试环境）；production分支从pre-production分支签出，用于部署到线上环境
+	  
+	  	2）每次开发或修复bug，先创建issue，声明分支的主要作用和需要修改的代码，从master签出的分支，命名必须以之前创建的issue编号开头，然后再次分支上进行开发，这样好处是代码合并到master分支之后改对应的编号的issue就会自动关闭
+	  
+	  	3）feature分支开发完成之后使用rebase命令合并多个commits记录，防止commits记录混乱，执行完后再push到远程分支，同时提Merge Request
+	  
+	  	4）对代码进行检查和测试，通过后合并master分支，此时master分支处于可测试，可运行，可部署到开发环境进行测试
+	  
+	  	5）master分支测试通过，删除feature分支，同时向pre-production分支发起Merge Request进行测试，通过后向production发起Merge Request，合并后更新线上，如果分支遇到紧急更新，可以不删除feature分支，直接feature合并到pre-production进行测试
