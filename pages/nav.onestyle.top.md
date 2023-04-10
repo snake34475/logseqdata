@@ -5,6 +5,8 @@
 	- 新增nav
 		- 图片上传
 		- label
+			- 中文
+			- 英文
 		- link
 	- 删除nav
 	- 重组nav(支持子节点更换父节点)
@@ -13,8 +15,8 @@
 - ```json
   [
     {
-      "name": "常用网站",
-      "en_name": "Tutorial",
+      "name": "常用网站", //中文索引
+      "en_name": "Tutorial", //英文索引
       "icon": "linecons-pencil",
       "children": [
         {
