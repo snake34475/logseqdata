@@ -7,4 +7,4 @@
 		- label
 		- link
 	- 删除nav
-	- nav
+	- 重组nav(支持子节点更换父节点)
