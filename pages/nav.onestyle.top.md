@@ -8,5 +8,27 @@
 		- link
 	- 删除nav
 	- 重组nav(支持子节点更换父节点)
+-
+- 以下是支持的数据格式
 - ```json
+  [
+    {
+      "name": "常用网站",
+      "en_name": "Tutorial",
+      "icon": "linecons-pencil",
+      "children": [
+        {
+          "name": "日常辅助工具",
+          "en_name": "Design FM",
+          "web": [
+            {
+              "url": "https://chatbot.theb.ai/",
+              "logo": "assets/images/logos/bai.jpg",
+              "title": "BAI CHAT",
+              "desc": "国内免费的chatgpt3.5"
+            }
+          ]
+        }
+  ]
+  
   ```
