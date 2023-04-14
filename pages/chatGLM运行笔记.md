@@ -13,3 +13,8 @@
    ![Replaced by Image Uploader](https://s2.loli.net/2023/04/14/axS5vIfuK9yNFqe.png)
 - 8g的显存点击运行
 -
+- 报错分析
+	- ![image.png](../assets/image_1681450326814_0.png){:height 300, :width 503}
+		- 点击同文件想的install.sh尝试
+		-
+	-
