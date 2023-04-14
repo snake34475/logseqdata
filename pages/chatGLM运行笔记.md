@@ -10,3 +10,5 @@
   ![Replaced by Image Uploader](https://s2.loli.net/2023/04/14/bwF6EtXlOihqADV.png){:height 286, :width 533}
 - 此时点下强制更新，更新下最新代码
 - 然后根据自己的显存选项选择使用哪个脚本
+   ![Replaced by Image Uploader](https://s2.loli.net/2023/04/14/axS5vIfuK9yNFqe.png)
+- 8g的显存
