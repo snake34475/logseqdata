@@ -1,4 +1,4 @@
 - 百度网盘下载 [链接](https://pan.baidu.com/s/1XSjBZ6U3OiVZULEjvJbd2g?pwd=tvmc)
 - 打开后将所有的包解压，我们可以看到
   ![Replaced by Image Uploader](https://s2.loli.net/2023/04/14/CLvU65PjMbStNmx.png)
-- 打开3-20
+- 打开`3-20日更新`这个包,可以看到`chatglm-6b`这个文件夹，将这个文件夹内部的所有文件拷贝
