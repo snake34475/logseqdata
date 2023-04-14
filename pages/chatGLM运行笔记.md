@@ -20,5 +20,5 @@
 		- 重启电脑
 		-
 	- `Symbol cudaLaunchKernel not found`
-		-
+		- 这种一般是int4 也就是显存小于8g的时候的报错，需要单独安装
 -
