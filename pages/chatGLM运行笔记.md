@@ -16,5 +16,9 @@
 - 报错分析
 	- ![image.png](../assets/image_1681450326814_0.png){:height 300, :width 503}
 		- 点击同文件想的install.sh尝试
+		- 重新按照以上步骤安装
+		- 重启电脑
 		-
-	-
+	- `Symbol cudaLaunchKernel not found`
+		-
+-
