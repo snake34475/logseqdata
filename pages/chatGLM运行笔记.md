@@ -7,3 +7,6 @@
 - 将解压好的`model`放到`ChatGLM-webui`文件中
 - 将环境包内部的文件粘贴到`ChatGLM-webui`文件中
 - 最终展示为
+  ![Replaced by Image Uploader](https://s2.loli.net/2023/04/14/bwF6EtXlOihqADV.png){:height 286, :width 533}
+- 此时点下强制更新，更新下最新代码
+- 然后根据自己的显存选项选择使用哪个脚本
