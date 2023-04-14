@@ -18,7 +18,7 @@
 	- [[git]]
 		- [[git分支管理流程]]
 	- [[AI]]
-		- [[本地化chatglm]]
+		- [[本地化chatGLM]]
 - [[系统]]
 	- [[mac]]
 	- [[window]]
