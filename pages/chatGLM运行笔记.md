@@ -11,7 +11,8 @@
 - 此时点下强制更新，更新下最新代码
 - 然后根据自己的显存选项选择使用哪个脚本
    ![Replaced by Image Uploader](https://s2.loli.net/2023/04/14/axS5vIfuK9yNFqe.png)
-- 8g的显存点击运行
+- 8g的显存点击运行，这种就是成功的情况
+	- ![Replaced by Image Uploader](https://s2.loli.net/2023/04/14/Ca1F9dre25gTkfp.png)
 -
 - 报错分析
 	- ![image.png](../assets/image_1681450326814_0.png){:height 300, :width 503}
@@ -20,7 +21,7 @@
 		- 重启电脑
 		-
 	- `Symbol cudaLaunchKernel not found`
-		- 可以尝试
+		- 可以尝试不管他，多等一会，出现网址说明就能用
 		- 这种一般是int4 也就是显存小于8g的时候的报错，需要单独安装 [cuda](https://developer.nvidia.com/cuda-downloads)
 -
 -
