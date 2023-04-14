@@ -15,8 +15,8 @@
 	- ![Replaced by Image Uploader](https://s2.loli.net/2023/04/14/Ca1F9dre25gTkfp.png)
 -
 - 报错分析
-	- ![image.png](../assets/image_1681450326814_0.png){:height 300, :width 503}
-		- 点击同文件想的install.sh尝试
+	- ![Replaced by Image Uploader](https://s2.loli.net/2023/04/14/7YuenfiFqTvk6aM.png){:height 300, :width 503}
+		- 点击同文件下的install.sh尝试
 		- 重新按照以上步骤安装
 		- 重启电脑
 		-
