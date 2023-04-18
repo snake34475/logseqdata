@@ -6,4 +6,6 @@
 					- 先输入`TLDR:`然后是文章链接
 				- 总结一本书
 					- `summarize [book title]`
+- [chatgpt工具类](https://github.com/ikaijua/Awesome-AITools/blob/main/README-CN.md)
+- [csdn一位大佬对chatgpt的见解和入门](https://blog.csdn.net/qq_37177115/article/details/130073225)
 -
