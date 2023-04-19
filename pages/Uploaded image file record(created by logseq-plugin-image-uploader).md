@@ -40,3 +40,4 @@
 	- ../assets/image_1681450593906_0.png
 	- ../assets/image_1681450326814_0.png
 	- ../assets/image_1681450326814_0.png
+	- ../assets/image_1681872721069_0.png
