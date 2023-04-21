@@ -1,6 +1,8 @@
 -
 -
 - shebang 释伴（解释伴随行）
+- `#!/bin/bash` 将路径引用给解释器，解释有bash、zsh、csh 和 ksh，分别用
+	-
 -
 -
 -
