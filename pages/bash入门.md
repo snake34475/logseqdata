@@ -1,1 +1,1 @@
-- shebang
+- shebang 释伴（解释伴随行）
