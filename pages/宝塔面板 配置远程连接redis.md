@@ -22,4 +22,6 @@
 			- ![Replaced by Image Uploader](https://s2.loli.net/2023/04/25/NpMrO58nPbTocAI.png)
 - ## 客户端准备
 	- 1.resp安装，无脑下一步
-	-
+	- ![Replaced by Image Uploader](https://s2.loli.net/2023/04/25/dnbwDzRcFi3Y9xE.png)
+	- 由于没有设置用户名，此处
+	- ![Replaced by Image Uploader](https://s2.loli.net/2023/04/25/XxFqTPi91WNoavB.png)
