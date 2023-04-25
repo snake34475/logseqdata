@@ -11,4 +11,7 @@
 	- bind
 	- requirepass
 	- ![Replaced by Image Uploader](https://s2.loli.net/2023/04/25/zLeh1VJnlTA8wkx.png){:height 415, :width 509}
--
+- 3.重启
+- 4.端口号开放6379
+	- 宝塔的安全页面开放一下
+	-
