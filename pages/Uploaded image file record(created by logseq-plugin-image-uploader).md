@@ -48,3 +48,4 @@
 	- ../assets/image_1682421427361_0.png
 	- ../assets/image_1682421427361_0.png
 	- ../assets/image_1682421499530_0.png
+	- ../assets/image_1682421843225_0.png
