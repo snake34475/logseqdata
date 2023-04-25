@@ -44,3 +44,6 @@
 	- ../assets/image_1681872781842_0.png
 	- ../assets/image_1681872836616_0.png
 	- ../assets/image_1681873174112_0.png
+	- ../assets/image_1682421427361_0.png
+	- ../assets/image_1682421427361_0.png
+	- ../assets/image_1682421427361_0.png
