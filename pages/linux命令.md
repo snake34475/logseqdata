@@ -11,5 +11,11 @@
 	- netstat 查看网络状态信息
 - 文件查看
 	- cat 查看文件内容
-	- head 查看
-	-
+	- head 查看文件开头
+	- tail 查看文件末尾
+	- grep sed awk 灵活查找和处理文件
+- 用户权限
+	- useradd 添加用户
+	- userdel 删除用户
+	- chmod 修改文件或目录权限
+	- chown 修改文件或
