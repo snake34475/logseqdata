@@ -9,7 +9,6 @@
 		- [[express基础]]
 		- [[express 文章项目实战]]
 	- [[数据库]]
-		- [[redis]]
 	- [[http]]
 	  collapsed:: true
 		- [[代理]]
