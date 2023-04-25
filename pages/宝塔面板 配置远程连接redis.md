@@ -13,7 +13,8 @@
 	- ![Replaced by Image Uploader](https://s2.loli.net/2023/04/25/zLeh1VJnlTA8wkx.png){:height 415, :width 509}
 - 3.重启
 - 4.端口号开放6379
-	- 如果看到这个防火墙开关开启的话，记得把端口放行一下
-	  ![Replaced by Image Uploader](https://s2.loli.net/2023/04/25/OGfRisW8TnIzF94.png)
-	-
+	- 宝塔端口开启
+		- 如果看到这个防火墙开关开启的话，记得把端口放行一下
+		  ![Replaced by Image Uploader](https://s2.loli.net/2023/04/25/OGfRisW8TnIzF94.png)
+	- 腾讯/阿里云控制台防火墙开启，一般在服务器的页面
 	-
