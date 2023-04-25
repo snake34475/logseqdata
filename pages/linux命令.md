@@ -18,4 +18,4 @@
 	- useradd 添加用户
 	- userdel 删除用户
 	- chmod 修改文件或目录权限
-	- chown 修改文件或
+	- chown 修改文件或目录所有者
