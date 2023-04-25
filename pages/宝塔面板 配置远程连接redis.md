@@ -5,7 +5,6 @@
 	  redis远程连接软件
 -
 - ## 服务器准备
-  collapsed:: true
 	- id:: 6447b644-be51-4cd4-9c5e-cabead43ee47
 	  1. 软件商店查询redis 点击设置
 	  ![Replaced by Image Uploader](https://s2.loli.net/2023/04/25/23SwGaXlWnDhJsr.png){:height 290, :width 539}
@@ -22,6 +21,7 @@
 			- ![Replaced by Image Uploader](https://s2.loli.net/2023/04/25/NpMrO58nPbTocAI.png)
 - ## 客户端准备
 	- 1.resp安装，无脑下一步
-	- ![Replaced by Image Uploader](https://s2.loli.net/2023/04/25/dnbwDzRcFi3Y9xE.png)
-	- 由于没有设置用户名，此处
-	- ![Replaced by Image Uploader](https://s2.loli.net/2023/04/25/XxFqTPi91WNoavB.png)
+	- 2.点击连接
+		- ![Replaced by Image Uploader](https://s2.loli.net/2023/04/25/dnbwDzRcFi3Y9xE.png)
+	- 3.由于没有设置用户名，此处为空，名字随便写
+		- ![Replaced by Image Uploader](https://s2.loli.net/2023/04/25/XxFqTPi91WNoavB.png)
