@@ -1,11 +1,12 @@
 - #宝塔面板 #redis
 - ## 准备
 	- 宝塔面板
-	- [resp](链接：https://pan.baidu.com/s/1mezyPkU6Rtp0mSkKredYuw?pwd=9dgs)redis
+	- [resp](https://pan.baidu.com/s/1mezyPkU6Rtp0mSkKredYuw?pwd=9dgs) 
+	  redis远程连接软件
 -
 - id:: 6447b644-be51-4cd4-9c5e-cabead43ee47
   1. 软件商店查询redis 点击设置
-  ![Replaced by Image Uploader](https://s2.loli.net/2023/04/25/23SwGaXlWnDhJsr.png)
+  ![Replaced by Image Uploader](https://s2.loli.net/2023/04/25/23SwGaXlWnDhJsr.png){:height 290, :width 539}
 - 2.修改这两项
 	- bind
 	- requirepass
