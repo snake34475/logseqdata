@@ -9,7 +9,8 @@
 		- ![Replaced by Image Uploader](https://s2.loli.net/2023/04/26/RjaQFlTroXCmgqh.png){:height 542, :width 479}
 - ## 解决方法
 	- 通过先限制一个class，然后在里面写全局，然后再写元素，这样既不影响全局的元素，又能达到目的
-		- 如果将````
-		  audit_durationFormItem
-		  `
+		-
 		- ![Replaced by Image Uploader](https://s2.loli.net/2023/04/26/tE4yqQdrLM6wZOc.png)
+		- 如果将`audit_durationFormItem`直接写在global则不生效
+			- ![image.png](../assets/image_1682503162152_0.png)
+-
