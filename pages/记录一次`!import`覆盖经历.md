@@ -12,5 +12,5 @@
 		-
 		- ![Replaced by Image Uploader](https://s2.loli.net/2023/04/26/tE4yqQdrLM6wZOc.png)
 		- 如果将`audit_durationFormItem`直接写在global则不生效
-			- ![image.png](../assets/image_1682503162152_0.png)
+			- ![Replaced by Image Uploader](https://s2.loli.net/2023/04/26/Eu7Jz9NkgKfCb5X.png)
 -

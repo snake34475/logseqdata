@@ -56,3 +56,4 @@
 	- ../assets/image_1682502920874_0.png
 	- ../assets/image_1682502958085_0.png
 	- ../assets/image_1682503050674_0.png
+	- ../assets/image_1682503162152_0.png
