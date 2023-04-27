@@ -1,6 +1,7 @@
 - [[web开发]]
-	- {{embed [[web开发]]}}
+	- {{embed ((64317c40-b8f6-4be5-bb8d-7478a0ff1ff5))}}
 	- [[前端]]
+	  id:: 64317c40-b8f6-4be5-bb8d-7478a0ff1ff5
 	- [[代码格式]]
 	  collapsed:: true
 		- [[代码整洁]]
