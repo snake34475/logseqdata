@@ -1,6 +1,6 @@
 - #笔记 #软件
 - 教学
-	-
+	- /link
 	- [中文教学](http://northnight.gitee.io/logseq-documents/#/page/contents)
 	- [关于 Logseq —— 你所需知道的一切](https://cn.logseq.com/t/topic/4293)
 	-
