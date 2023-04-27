@@ -1,5 +1,4 @@
--
-	- {{embed ((644a7f43-f205-4693-ad6b-c01ea0acfa8c))}}
+- {{embed ((644a7f43-f205-4693-ad6b-c01ea0acfa8c))}}
 - [[系统]]
 	- [[mac]]
 	- [[window]]
