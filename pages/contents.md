@@ -1,5 +1,5 @@
 - [[web开发]]
-	- {{embed [[]]}}
+	- {{embed [[web开发]]}}
 	- [[前端]]
 	- [[代码格式]]
 	  collapsed:: true
