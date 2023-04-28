@@ -7,7 +7,8 @@
 - 配置
 	- 插件
 		- Tabs
-		-
+		- Agenda
+		- Link Preview
 	- 主题
 	-
 -
