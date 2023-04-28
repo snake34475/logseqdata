@@ -15,6 +15,7 @@
 		- Bullet Threading
 		- Git
 	- 主题
+		- **Customized Github Theme**
 		-
 -
 - ## 如何学习使用logseq
