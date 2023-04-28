@@ -9,8 +9,13 @@
 		- Tabs
 		- Agenda
 		- Link Preview
-		-
+		- Char Spacing
+		- Image Uploader
+		- Github File Getter
+		- Bullet Threading
+		- Git
 	- 主题
+		-
 -
 - ## 如何学习使用logseq
   collapsed:: true
