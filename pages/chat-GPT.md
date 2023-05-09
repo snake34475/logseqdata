@@ -1,0 +1,11 @@
+- 例子
+	- 总结功能 [文章引用](https://www.zdnet.com/article/how-to-use-chatgpt-to-summarize-a-book-article-or-research-paper/)
+		- 可以使用其进行繁杂文章内容的总结，在你急需学习一门新的技术时，能快速浏览文章从而抓住要点
+			- 使用方法：
+				- 总结网络文章
+					- 先输入`TLDR:`然后是文章链接
+				- 总结一本书
+					- `summarize [book title]`
+- [chatgpt工具类](https://github.com/ikaijua/Awesome-AITools/blob/main/README-CN.md)
+- [csdn一位大佬对chatgpt的见解和入门](https://blog.csdn.net/qq_37177115/article/details/130073225)
+-

@@ -1,0 +1,21 @@
+- 文件操作
+	- pwd 当前目录
+	- zip 压缩文件
+	- unzip 解压文件
+- 系统命令
+	- top 查看进程和占用
+	- ps 查看进程
+	- free 查看内寸占用
+	- df 查看磁盘占用
+	- ifconfig 查看网络接口信息
+	- netstat 查看网络状态信息
+- 文件查看
+	- cat 查看文件内容
+	- head 查看文件开头
+	- tail 查看文件末尾
+	- grep sed awk 灵活查找和处理文件
+- 用户权限
+	- useradd 添加用户
+	- userdel 删除用户
+	- chmod 修改文件或目录权限
+	- chown 修改文件或目录所有者
