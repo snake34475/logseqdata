@@ -1,4 +1,5 @@
 - #python
+-
 - {{renderer :tocgen2, [[python笔记]]}}
 -
 - ## 规范
@@ -16,10 +17,10 @@
 	  
 	  ```
 - ## 数据类型
-	- 整数
-	- 浮点数
+	- ### 整数
+	- ### 浮点数
 	- 字符串
-	  collapsed:: true
+		- [字符串方法](https://docs.python.org/3/library/stdtypes.html#string-methods)
 		- 占位符
 		  collapsed:: true
 			- | 占位符 | 替换内容 |
@@ -59,6 +60,10 @@
 			  '文'
 			  ```
 		- len() 获取长度
+		- lower() 小写
+		- script()清空空格
+		- isinstance(item,str) 判断是否为字符串类型
+		-
 	- 布尔值
 	  collapsed:: true
 		- True
@@ -191,8 +196,79 @@
 			  ```
 		-
 	- 函数
+	  collapsed:: true
 		- [官方文档](https://docs.python.org/3/library/functions.html#abs)
-		- 如果有必须要需要对函数进行类型检查
+		- 使用属性名称传参
+		  collapsed:: true
+			- ```python
+			  def enroll(name, gender, age=6, city='Beijing'):
+			      print('name:', name)
+			      print('gender:', gender)
+			      print('age:', age)
+			      print('city:', city)
+			  ```
+		- 默认值
+		  collapsed:: true
+			- 调用多次后发现返回结果不一致
+			  ```python
+			  def add_end(L=[]):
+			      L.append('END')
+			      return L
+			  >>> add_end() 
+			  ['END']
+			  >>> add_end()
+			  ['END', 'END']
+			  >>> add_end()
+			  ['END', 'END', 'END']
+			  ```
+			- 原因：在python中，如果默认参数是一个可变对象，那么这个参数在函数定义的时候就被创建，而不是每次重新建一个，不变对象有none或str
+			  而js中是每次都新建一个list
+			- 修改后:
+			  ```python
+			  def add_end(L=None):
+			      if L is None:
+			          L = []
+			      L.append('END')
+			      return L
+			  ```
+		- 可变参数
+		  collapsed:: true
+			-
+			- 此后可以传入任意多个参数，包括0个参数
+			  ```python
+			  def calc(*numbers):
+			      sum = 0
+			      for n in numbers:
+			          sum = sum + n * n
+			      return sum
+			  #传入元组或列表也可以使用这种方法
+			  nums=[1,2,3]
+			  calc(*nums)
+			  ```
+		- 关键字参数
+		  collapsed:: true
+			- kw获得的dict是extra的一份拷贝，其改动并不会影响函数外的extra
+			  ```python
+			  def person(name, age, **kw):
+			      print('name:', name, 'age:', age, 'other:', kw)
+			      
+			  >>> person('Jack', 24, **extra)
+			  name: Jack age: 24 other: {'city': 'Beijing', 'job': 'Engineer'}
+			  ```
+			- 命名关键字
+				- 需要添加一个特殊的分隔符，*之后的参数并命名为命名关键字参数
+				  ```python
+				  def person(name, age, *, city, job):
+				      print(name, age, city, job)
+				  ```
+				- 如果函数定义中已经有了一个可变参数，后面跟着的命名关键字参数就不再需要一个特殊分隔符`*`了：
+				  ```python
+				  def person(name, age, *args, city, job):
+				      print(name, age, args, city, job)
+				  ```
+		- 类型检查
+		  collapsed:: true
+			- 如果有必须要需要对函数进行
 			- ```python
 			  
 			  def my_abs(x):
@@ -203,18 +279,64 @@
 			      else:
 			          return -x
 			  ```
-		- 可以返回多个值，多个值返回的是元组
+		- 返回多个值
+		  collapsed:: true
+			- 多个值返回的是元组
 			- ```python
 			  >>> r = move(100, 100, 60, math.pi / 6)
 			  >>> print(r)
 			  (151.96152422706632, 70.0)
 			  ```
 		- 例子
+		  collapsed:: true
 			- 无参数
 			  ```python
 			  def nop():
 			      pass
 			  ```
+		- 小结
+			- `*args`是可变参数，args接收的是一个tuple；
+			- `**kw`是关键字参数，kw接收的是一个dict。
+- ## 高级特性
+	- 取片 ，可以操作字符串，元组，数组
+	  collapsed:: true
+		- ```python
+		  >>> L[0:3]
+		  ['Michael', 'Sarah', 'Tracy']
+		  
+		  >>> L[:3]
+		  ['Michael', 'Sarah', 'Tracy']
+		  #没间两个取一个
+		  >>> L[:10:2]
+		  [0, 2, 4, 6, 8]
+		  ```
+	- 迭代
+	  collapsed:: true
+		- 数组 下标+值
+			- ```python 
+			  >>> for i, value in enumerate(['A', 'B', 'C']):
+			  ...     print(i, value)
+			  ...
+			  0 A
+			  1 B
+			  2 C
+			  ```
+	- 列表生成
+	  collapsed:: true
+		- list(range(1, 11))
+		- 列表生成式
+		- [结果 for 变量 in 列表(或元组等) 判断/循环]
+		- ```python
+		  [x * x for x in range(1, 11)]
+		  [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
+		  ```
+	- generator 生成器（没看）
+	- 迭代器（没看）
+- ## 函数编程
+	- ## 函数式编程
+		- 任意一个函数，只要输入是确定的，输出就是确定的，这种纯函数我们称之为没有副作用。
+		- 允许把函数本身作为参数传入另一个函数，还允许返回一个函数！
+	- 高阶函数
 - ## 运算符号
   collapsed:: true
 	- 逻辑运算
@@ -249,7 +371,13 @@
 		      print('kid')
 		  ```
 	-
+- 三目表达式
+	- ```python
+	  value= True if a>b else False
+	  #如果为true就返回前面的，为false就是后面的
+	  ```
 - 异常
+  collapsed:: true
 	- ```python
 	  def my_abs(x):
 	      if not isinstance(x, (int, float)):
