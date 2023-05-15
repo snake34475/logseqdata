@@ -63,3 +63,10 @@
 	- ../assets/image_1683861740444_0.png
 	- ../assets/1683861832172_1683861841705_0.png
 	- ../assets/image_1683861904641_0.png
+	- ../assets/image_1684147824840_0.png
+	- ../assets/image_1684147824840_0.png
+	- ../assets/image_1684147986507_0.png
+	- ../assets/image_1684148139404_0.png
+	- ../assets/image_1684148265243_0.png
+	- ../assets/image_1684148344646_0.png
+	- ../assets/image_1684148477214_0.png
