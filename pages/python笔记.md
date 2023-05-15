@@ -19,7 +19,8 @@
 - ## 数据类型
 	- ### 整数
 	- ### 浮点数
-	- 字符串
+	- ### 字符串
+	  collapsed:: true
 		- [字符串方法](https://docs.python.org/3/library/stdtypes.html#string-methods)
 		- 占位符
 		  collapsed:: true
@@ -64,17 +65,17 @@
 		- script()清空空格
 		- isinstance(item,str) 判断是否为字符串类型
 		-
-	- 布尔值
+	- ### 布尔值
 	  collapsed:: true
 		- True
 		- False
-	- 空值
+	- ### 空值
 	  collapsed:: true
 		- None
-	- 常量
+	- ### 常量
 	  collapsed:: true
 		- PI也就是3.1415926
-	- list 列表
+	- ### list 列表
 	  collapsed:: true
 		- 长度元素可变
 		- 方法
@@ -108,7 +109,7 @@
 				- 使用下标替换
 			- range(num) 生成0到num的序列
 			-
-	- tuple 元组
+	- ### tuple 元组
 	  collapsed:: true
 		- tuple和list非常类似，但是tuple一旦初始化就不能修改
 		      不可变的tuple有什么意义？因为tuple不可变，所以代码更安全。如果可能，能用tuple代替list就尽量用tuple。
@@ -133,7 +134,7 @@
 			  (1, 2)
 			  ```
 		-
-	- dict 字典
+	- ### dict 字典
 	  collapsed:: true
 		- 对比dict特点
 			- 查找和插入的速度极快，不会随着key的增加而变慢；
@@ -160,7 +161,7 @@
 				  -1
 				  ```
 		-
-	- set
+	- ### set
 	  collapsed:: true
 		- key的集合，不存value
 		- 方法
@@ -195,8 +196,7 @@
 			  {1, 2, 3}
 			  ```
 		-
-	- 函数
-	  collapsed:: true
+	- ### 函数
 		- [官方文档](https://docs.python.org/3/library/functions.html#abs)
 		- 使用属性名称传参
 		  collapsed:: true
@@ -298,8 +298,8 @@
 			- `*args`是可变参数，args接收的是一个tuple；
 			- `**kw`是关键字参数，kw接收的是一个dict。
 - ## 高级特性
-	- 取片 ，可以操作字符串，元组，数组
-	  collapsed:: true
+	- ### 取片
+		- 可以操作字符串，元组，数组
 		- ```python
 		  >>> L[0:3]
 		  ['Michael', 'Sarah', 'Tracy']
@@ -310,7 +310,7 @@
 		  >>> L[:10:2]
 		  [0, 2, 4, 6, 8]
 		  ```
-	- 迭代
+	- ### 迭代
 	  collapsed:: true
 		- 数组 下标+值
 			- ```python 
@@ -321,7 +321,7 @@
 			  1 B
 			  2 C
 			  ```
-	- 列表生成
+	- ### 列表生成
 	  collapsed:: true
 		- list(range(1, 11))
 		- 列表生成式
@@ -330,13 +330,147 @@
 		  [x * x for x in range(1, 11)]
 		  [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
 		  ```
-	- generator 生成器（没看）
-	- 迭代器（没看）
+	- ### generator 生成器（没看）
+	- ### 迭代器（没看）
 - ## 函数编程
+  collapsed:: true
 	- ## 函数式编程
 		- 任意一个函数，只要输入是确定的，输出就是确定的，这种纯函数我们称之为没有副作用。
 		- 允许把函数本身作为参数传入另一个函数，还允许返回一个函数！
-	- 高阶函数
+	- ## 高阶函数
+		- ### map/reduce
+			- ```python
+			  #map
+			  >>> list(map(str, [1, 2, 3, 4, 5, 6, 7, 8, 9]))
+			  ['1', '2', '3', '4', '5', '6', '7', '8', '9']
+			  #reduce
+			  >>> from functools import reduce
+			  >>> def add(x, y):
+			  ...     return x + y
+			  ...
+			  >>> reduce(add, [1, 3, 5, 7, 9])
+			  25
+			  ```
+		- ### filter
+			- `filter()`把传入的函数依次作用于每个元素，然后根据返回值是`True`还是`False`决定保留还是丢弃该元素。
+			- ```python
+			  def not_empty(s):
+			      return s and s.strip()
+			  
+			  list(filter(not_empty, ['A', '', 'B', None, 'C', '  ']))
+			  # 结果: ['A', 'B', 'C']
+			  ```
+		- ### sorted
+			- ```python
+			  #支持传入key参数实现自定义潘旭
+			  >>> sorted([36, 5, -12, 9, -21], key=abs)
+			  [5, 9, -12, -21, 36]
+			  
+			  #第三个参数反向查询
+			  >>> sorted(['bob', 'about', 'Zoo', 'Credit'], key=str.lower, reverse=True)
+			  ['Zoo', 'Credit', 'bob', 'about']
+			  ```
+	- ## 返回函数(闭包)
+	- ## 匿名函数
+		- ```python
+		  >>> list(map(lambda x: x * x, [1, 2, 3, 4, 5, 6, 7, 8, 9]))
+		  [1, 4, 9, 16, 25, 36, 49, 64, 81]
+		  ```
+		-
+	- ## 装饰器
+	  collapsed:: true
+		- > 在代码运行旗舰动态增加功能的方式，被称为"装饰器"（Decorator）。
+		- 无参数
+			- ```python
+			  #定义装饰器
+			  import functools
+			  def log(func):
+			    #将其他属性复制到当前的函数中去
+			    @functools.wraps(func)
+			    def wrapper(*args,**kw):
+			        print("call *%s* ():" % func.__name__ )
+			        return func(*args,**kw)
+			    return wrapper
+			  #注册装饰器
+			  @log
+			  def now():
+			    print("2023-5-15")
+			  
+			  f=now
+			  f()
+			  print(now.__name__)
+			  #wrapper
+			  #类似于 now = log(now)
+			  ```
+		- 有参数
+			- ```python
+			  import functools
+			  def logtwo(text):
+			      def decorator(func):
+			          @functools.wraps(func)
+			          def wrapper(*args,**kw):
+			              print("%s %s ():" % (text,func.__name__) )
+			              return func(*args,**kw)
+			          return wrapper
+			      return decorator
+			  # @log
+			  @logtwo("打印出来的错误是：")
+			  def now():
+			      print("2023-5-15")
+			  
+			  f=now
+			  
+			  f()
+			  print(now.__name__)
+			  #>>> now = log('execute')(now)
+			  ```
+		- 测试函数执行时间
+			- ```python
+			  def metric(func):
+			         @functools.wrapper(func)
+			         def wrapper(*args,**kw):
+			             start_time=time.time()
+			             result = func(*args, **kw)
+			             end_time=time.time()
+			             print("时间： %s" % (end_time-start_time))
+			             return result
+			         return wrapper
+			  
+			  
+			  # 测试
+			  @metric
+			  def fast(x, y):
+			      time.sleep(0.0012)
+			      return x + y;
+			  
+			  @metric
+			  def slow(x, y, z):
+			      time.sleep(0.1234)
+			      return x * y * z;
+			  
+			  f = fast(11, 22)
+			  s = slow(11, 22, 33)
+			  if f != 33:
+			      print('测试失败!')
+			  elif s != 7986:
+			      print('测试失败!')
+			  
+			  ```
+	- ## 偏函数
+		- >通过设定参数的默认值，可以降低函数调用的难度。
+		- ```python
+		  #使用自带的functools.partial函数构建一个偏函数
+		  >>> import functools
+		  >>> int2 = functools.partial(int, base=2)
+		  >>> int2('1000000')
+		  64
+		  >>> int2('1010101')
+		  85
+		  ```
+- ## 模块
+	- >每个包都有一个 `__init__py`文件，必须存在，否则会认为是普通目录而不是包
+	- > 自己创建模块时要注意命名，不能和Python自带的模块名称冲突。例如，[[系统]]自带了sys模块，自己的模块就不可命名为sys.py，否则将无法导入[[系统]]自带的sys模块。
+	-
 - ## 运算符号
   collapsed:: true
 	- 逻辑运算
@@ -359,9 +493,8 @@
 		- `%`
 			- 取余数
 - 条件判断
-  collapsed:: true
 	- if
-		- ```
+		- ```python
 		  age = 3
 		  if age >= 18:
 		      print('adult')
