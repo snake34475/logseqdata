@@ -6,6 +6,8 @@
 	- [使用教程 & 学习资源汇总](https://zhuanlan.zhihu.com/p/619887710)
 	- [Logseq 系列之 Git 同步](https://zhuanlan.zhihu.com/p/553238392)
 	- [发布成网站](https://zhuanlan.zhihu.com/p/526053556)
+- 发布到网站时，不能携带插件 [github原问题](https://github.com/logseq/logseq/issues/4522)
+	- 这个问题没有最终答案
 - ## 配置
 	- 插件
 		- Tabs

@@ -1,4 +1,10 @@
-- #github
+- #github #waka #github-profile
+- [github相关主题](https://github.com/topics/github-profile)
+-
+- 我用来设置的编辑器有
+	- webstorm
+	- pycharm
+	- vscode
 - ## 发现
 	- 在学习logseq的时候发现别人的github面板的自我接受特别好看
 	- [Dawei Ma](https://github.com/madawei2699)
@@ -11,7 +17,7 @@
 		- 根据里面的引用action组件我们就可以分析并且用到我们的项目里
 			- ![Replaced by Image Uploader](https://s2.loli.net/2023/05/15/OJB3tCcRv4VLzAb.png)
 	- ## wake
-		- [waka-readme-stats](waka-readme-stats)
+		- [waka-readme-stats](https://github.com/anmol098/waka-readme-stats)
 			- 根据教程走就行
 		- 问题
 			- 401

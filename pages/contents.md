@@ -11,11 +11,6 @@
 	- [[前端]]
 	- [[后端]]
 		- [[python]]
-			- {{renderer :tocgen2, [[python笔记]]}}
-		- [[nodejs]]
-			- [[express]]
-				- [[express基础]]
-				- [[express 文章项目实战]]
 	- [[代码格式]]
 	  collapsed:: true
 		- [[代码整洁]]
