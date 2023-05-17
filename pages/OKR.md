@@ -1,0 +1,12 @@
+- OKR中O代表Objectives，理解为目标，KR为Key Result，关键结果
+	- 浓缩在一起就是
+	- >为保证达到目标的关键结果分解和实施
+	- OKR需要注意以下关键
+		- 目标确定SMART
+			- Specific（具体）
+			- Measurable（可量化）
+			- Attainable（可达成）
+			- Relevant（相关）
+			- Timely（时间限制）
+		- 关键结果设置得等，设置有效的量化标准
+		- 有效执行：强调目的而不是郭成成，开展周期性回顾

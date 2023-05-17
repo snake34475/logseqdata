@@ -64,6 +64,15 @@
 				  echo "同步完成"
 				  
 				  ```
+- ## 关于同步
+	- ondrive同步各端
+		- 安卓
+			- logseq+onedrive+flodersync
+			- 同步的时候需要
+		- [[window]]
+			- logseq+onedrive
+	- 自动上传github
+		- 触发action部署到gitpage
 - ## 如何学习使用logseq
   collapsed:: true
 	- ## Objective（目标）
