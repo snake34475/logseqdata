@@ -1,0 +1,10 @@
+- [网站](https://www.upwork.com/)
+-
+- ## 提现
+	- [Upwork提现/送$35](https://zhuanlan.zhihu.com/p/33543580)
+	- [跨境工作站](https://link.zhihu.com/?target=http%3A//www.topworker.cn)
+- ## 如何接单
+	- 文章接单四部曲
+		- 时薪20美元
+		- 10天能收到客户练习
+		- 沟通两天签合同
