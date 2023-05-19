@@ -19,6 +19,7 @@
 	  
 	  ```
 - ## 数据类型
+  collapsed:: true
 	- ### 整数
 	- ### 浮点数
 	- ### 字符串
@@ -301,6 +302,7 @@
 			- `*args`是可变参数，args接收的是一个tuple；
 			- `**kw`是关键字参数，kw接收的是一个dict。
 - ## 高级特性
+  collapsed:: true
 	- ### 取片
 	  collapsed:: true
 		- 可以操作字符串，元组，数组
@@ -690,6 +692,7 @@
 			- `logging.info()`
 		-
 - ## IO编程
+  collapsed:: true
 	- ###  文件读写
 	  collapsed:: true
 		- ```python
@@ -755,6 +758,7 @@
 			  >>> f.read()
 			  ```
 	- ### 操作文件目录
+	  collapsed:: true
 		- ```python
 		  >>> import os
 		  >>> os.name # 操作系统类型
@@ -784,8 +788,15 @@
 		  #要列出所有的.py文件
 		   [x for x in os.listdir('.') if os.path.isfile(x) and os.path.splitext(x)[1]=='.py']
 		  ```
--
--
+- ## 访问[[数据库]]
+  collapsed:: true
+	- ## SQLite
+		- {{embed [[SQLite]]}}
+- ## 实战类
+	- 1.搭建web APP骨架
+	- 2.[[数据库]]
+		- 创建连接池（关于连接池可以看这里[[连接池]]）
+			-
 - ## 运算符号
   collapsed:: true
 	- 逻辑运算
