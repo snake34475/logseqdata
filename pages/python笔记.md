@@ -821,6 +821,7 @@
 		- {{embed [[SQLite]]}}
 - ## 异步IO
 	- ## 协程
+	  collapsed:: true
 		- >是指一种轻量的线程，可以在同一个线程中交替执行，避免线程切换的开销
 		- 子程序调用只是一个入口一个返回，而携程可以内部中断，进而执行其他程序
 		- ### 优点
@@ -833,6 +834,56 @@
 			- next
 				- 执行
 		-
+	- ## asyncIO
+	  collapsed:: true
+		- ```python
+		  import asyncio
+		  
+		  @asyncio.coroutine
+		  def hello():
+		      print("Hello world!")
+		      # 异步调用asyncio.sleep(1):
+		      r = yield from asyncio.sleep(1)
+		      print("Hello again!")
+		  
+		  #老方法
+		  # 获取EventLoop:
+		  loop = asyncio.get_event_loop()
+		  # 执行coroutine
+		  loop.run_until_complete(hello())
+		  loop.close()
+		  
+		  #新方法 3.7以上，不用自动关闭
+		  asyncio.run(hello())
+		  ```
+	- aiohttp
+		- 基础案例
+		- ```python
+		  import asyncio
+		  from aiohttp import web
+		  
+		  async def index(request):
+		      await asyncio.sleep(0.5)
+		      return web.Response(text='<h1>index</h1>',content_type='text/html')
+		  
+		  async def hello(request):
+		      await asyncio.sleep(0.5)
+		      name=request.match_info['name']
+		      text=f'<h1>hello ,{name}</h1>'
+		      return web.Response(text=text,content_type='text/html')
+		  
+		  async def init_app():
+		      app=web.Application()
+		      app.add_routes([
+		          web.get('/',index),
+		          web.get('/hello/{name}',hello)
+		      ])
+		      return app
+		  
+		  app=asyncio.run(init_app())
+		  print('Server stared at http://127.0.0.1:8000')
+		  web.run_app(app,host='127.0.0.1',port=8000)
+		  ```
 - ## 实战类
 	- 1.搭建web APP骨架
 	- 2.[[数据库]]
