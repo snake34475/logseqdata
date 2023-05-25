@@ -1,0 +1,3 @@
+- [github原回答是不支持的](https://github.com/youzan/vant/issues/4617)
+- [csdn](https://blog.csdn.net/lllomh/article/details/118891814?ops_request_misc=&request_id=&biz_id=102&utm_term=vant%20picker%E7%BB%84%E4%BB%B6%E5%9C%A8pc%E9%BC%A0%E6%A0%87%E6%BB%9A%E8%BD%AE&utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduweb~default-0-118891814.nonecase&spm=1018.2226.3001.4187)解决方案，改源码，有点麻烦
+- hammerjs 添加模拟事件
