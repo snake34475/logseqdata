@@ -8,7 +8,8 @@
 	- 客服端渲染
 	- 服务端渲染
 	- nestjs
-	- 导航框如何做，加上箭头难么
+	- react和ts
+	- wordpress开发
 	- [[前端]]
 		- chrome扩展
 			- 寻找开发人员推出一个与 openai 集成并在 facebook 上生成回复的简单 chrome 扩展
