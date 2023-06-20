@@ -3,6 +3,7 @@
 		- 加速器
 		- sd卡
 	- [[软件]]list
+		- [折腾教程](https://bbs.a9vg.com/thread-8869286-1-1.html)
 		- 下载镜像修改
 		- 装window
 		- 桌面汉化
