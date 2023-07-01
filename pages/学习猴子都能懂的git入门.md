@@ -1,0 +1,21 @@
+- 学习[猴子都能懂的git入门](http://backlogtool.com/git-guide/cn/)
+	- 学习[猴子都能懂的git入门](http://backlogtool.com/git-guide/cn/)
+		- 疑问点
+			- Head
+			-
+		- Merge分支和Topic分支
+			- Merge分支是为了可以随时发布的分支，也是Topic的缘分值，通常master就是merge分支
+			- Topic分支就是开发新需求的分支，例如公司的jira
+	- 疑问点
+		- Head
+	- Merge分支和Topic分支
+		- Merge分支是为了可以随时发布的分支，也是Topic的缘分值，通常master就是merge分支
+		- Topic分支就是开发新需求的分支，例如公司的jira
+	- merge和rebase操作
+		- merge
+			- topic基于master更新，合并时master没更新，叫做fast-forward(快进)合并
+			- topic基于master更新，合并时master更新了，master会再生成一个提交
+		- rebase
+			- topic基于master更新，合并时master更新了，那么topic的所有更新记录会放到master之后，master的HEAD位置不变
+		- merge能够保持修改内容的历史记录，但是记录比较复杂
+		- rebase记录简单，在原有提交的基础上将差异放进去
