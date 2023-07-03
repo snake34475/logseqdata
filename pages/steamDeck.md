@@ -22,7 +22,11 @@
 	- [decky-loader](https://github.com/SteamDeckHomebrew/decky-loader) 扩展插件，更改[[系统]]声音，调整饱和度等等
 	- [steamtinkerlaunch](https://github.com/sonic2kk/steamtinkerlaunch)极致细化的自定义[[游戏]]配置，可以使用mode，切换修改各种设置
 	- [ludusavi](https://github.com/mtkennerly/ludusavi) 支持window存档
-	-
+	- [atelier-sync-fix](https://github.com/doitsujin/atelier-sync-fix) 提高帧率
+		- 补丁原网址https://github.com/doitsujin/atelier-sync-fix
+		  补丁网盘链接：https://pan.baidu.com/s/1Bc02jE_JAX1-YvvSoPN2Tg 
+		  提取码：8888 
+		  补丁指令：WINEDLLOVERRIDES="d3d11=n,b" %command%
 - 很多教程贴吧可能找不到，最好去酷安看看，[github](https://github.com/search?q=steamdeck&type=topics)
 - ## 常用解答
 	- [关于ssd和tf卡的速度对比](https://g.nga.cn/read.php?tid=35068555&rand=729)
