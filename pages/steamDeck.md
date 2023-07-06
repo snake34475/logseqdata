@@ -11,6 +11,8 @@
 		-
 -
 - 各种折腾
+	- [官方讨论区](https://steamcommunity.com/groups/steamuniverse/discussions/1/)
+	- [官方github问题追踪](https://github.com/ValveSoftware/SteamOS/issues)
 	- [官方指南](https://partner.steamgames.com/doc/steamdeck)
 		- proton他是允许window和linux运行的兼容层，通过使用修改的wine版本和高性能api实现的，只是说覆盖率很广
 			- 如果测试[[游戏]]是否支持proton，可以在linux上装steam测试或者使用开发者套件
@@ -27,6 +29,7 @@
 		  补丁网盘链接：https://pan.baidu.com/s/1Bc02jE_JAX1-YvvSoPN2Tg 
 		  提取码：8888 
 		  补丁指令：WINEDLLOVERRIDES="d3d11=n,b" %command%
+- [大佬的综合教学帖](https://www.zhihu.com/column/c_1597940398197800960)
 - 很多教程贴吧可能找不到，最好去酷安看看，[github](https://github.com/search?q=steamdeck&type=topics)
 - ## 常用解答
 	- [关于ssd和tf卡的速度对比](https://g.nga.cn/read.php?tid=35068555&rand=729)
@@ -41,7 +44,33 @@
 	- 如果使用unity或虚幻引擎，使用Vulkan图形api可以获得最佳性能和续航（注意：Proton 包括一个 DirectX 至 Vulkan 转译层。 如果您的[[游戏]]或引擎具有高质量的 DirectX 支持却没有 Vulkan 支持，那么使用此自动转译层很可能会比使用自定义 Vulkan 实现获得更好的性能。）
 	- 建议使用独立解码器vP9，而不是wmf
 	- Steam Deck 会因使用外接电源或电池而有任何性能差异吗？我们将精力放在为您提供 APU 的完整可用性能，无论是使用电池还是接入电源。 我们期望在两种配置下，性能表现全都相同。
-	- steamdeck 如果需要一个稳定的帧，可以使用40fps，对于性能和电量来说性价比最高就是
+	- [[steamDeck]] 如果需要一个稳定的帧，可以使用40fps，对于性能和电量来说性价比最高就是40fps
+	- steamOS有两个存储库，`brewmaster`正式版和`brewmaster_beta`测试版，测试版每周一更新，正式版每月第一个周三更新
+		- 如果想进入测试版，可以尝试`sudo apt-get install steamos-beta-repo`
+		  不过警告你，只能恢复[[系统]]分区，或者等brewmaster赶上你这个beta版本，不过第二个应该是不可能
+		-
+	- steamos root访问权限密码是passwd
+	- 续航
+		- 如果要高续航，最好是锁3-7w 并且30帧打小[[游戏]]
+		- sd 9w 1100，锁45帧玩怪猎世界，可以玩3小时
+		-
+	- 快捷键
+		- ```
+		  steam+B 长按=强制游戏关闭
+		  steam+X 释放按压=显示键盘
+		  steam+L1=切换放大器
+		  steam+R1=截图
+		  steam+L2=鼠标右键点击
+		  steam+R2=鼠标左键点击
+		  steam+R2=鼠标左键点击
+		  steam+右摇杆 R3=摇杆鼠标
+		  steam+右触摸板Trackpad 移动=作鼠标用
+		  steam+右触摸板Trackpad 按压=鼠标左键点击
+		  steam+左摇杆L3 ↑↓=调高屏幕亮度和降低屏幕亮度
+		  steam+十字键 D-pad 右=回车键
+		  steam+十字键 D-pad 下=Tab键
+		  steam+十字键 D-pad 左=Esc键
+		  ```
 	-
 - ## [[steamDeck]] 介绍
 	- ### 缺点
@@ -101,4 +130,4 @@
 		  7.通过discovery商店安装第三方epicgames商店
 		  8.下载emudeck，安装各种模拟器
 -
--
+- 不得不说，steam的维护做的很好，听张宁说无人深空一开始口碑很烂，但是后期无偿维护起死回生，我看到steamdeck中一句话很触动，别人问他什么时候考虑发布steamdeck2，我还以为他会说steamdeck2将会很厉害的处理器，很厉害配置等等，谁知他说，暂不考虑，目前只会考虑如何将本世代维护好，这种脚踏实地的责任精神，令我肃然起敬，或许能够延伸到我自己的身上，如何脚踏实地。
