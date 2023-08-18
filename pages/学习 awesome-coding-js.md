@@ -1,12 +1,19 @@
 - 学习 awesome-coding-js
 	- js示例
 	- [JavaScript专题](https://www.conardli.top/docs/JavaScript/)
-	- LATER [手动实现call、apply、bind](https://www.conardli.top/docs/JavaScript/%E6%89%8B%E5%8A%A8%E5%AE%9E%E7%8E%B0call%E3%80%81apply%E3%80%81bind.html)
+	- DONE [手动实现call、apply、bind](https://www.conardli.top/docs/JavaScript/%E6%89%8B%E5%8A%A8%E5%AE%9E%E7%8E%B0call%E3%80%81apply%E3%80%81bind.html)
+	  collapsed:: true
 		- 都是用来改变[this指向](https://zhuanlan.zhihu.com/p/42145138)，说到this指向，this只会指向调用他的对象
 		  this中的两个要点，1一定会指向一个对象，2指向调用他的
 		- call和apply和bind第一个参数都是对象，如果不传那就是window
 		  call和bind第二以及之后都是传递的参数，apply第二个参数是一个数组
-		  call和apply是立即执行的，而bind是先绑定到一个函数上，之后才去执行
+			- 注意！虽然apply和bind第二个参数传递的类型不一样，但是在实际的参数调用时，传给函数的都是python中的元组类的也就是和call一样一个一个传递的，而不是数组
+		- call和apply是立即执行的，而bind是先绑定到一个函数上，之后才去执行
+		- 函数的实现
+			- 原理：call和apply将函数赋值给要指向的对象，调用后删除这个属性
+			  bind是将函数赋值给要指向的对象，创建一个闭包，根据是否为构造函数判断new一个函数还是使用apply调用
+		- 扩展
+			- arguments和args，arguments是类数组对象，而args是纯数组
 	- LATER [EventEmitter](https://www.conardli.top/docs/JavaScript/EventEmitter.html)
 	- DONE [防抖](https://www.conardli.top/docs/JavaScript/%E9%98%B2%E6%8A%96.html)
 	  collapsed:: true
@@ -29,6 +36,7 @@
 			  }
 			  ```
 	- DONE [节流](https://www.conardli.top/docs/JavaScript/%E8%8A%82%E6%B5%81.html)
+	  collapsed:: true
 		- 我们希望防止单位内多次点击，但是我们又希望不全部取消，可以积攒一段时间再去取消，所以节流就出现了
 			- ```
 			  ```
