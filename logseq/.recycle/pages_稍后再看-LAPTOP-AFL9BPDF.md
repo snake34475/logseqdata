@@ -1,6 +1,15 @@
+- 稍后学习
+	- [js算法](https://github.com/ConardLi/awesome-coding-js)
+	- [作者自己从0实现react18](https://github.com/BetaSu/big-react)
+- [vscode教程](https://www.w3cschool.cn/vscode/vscode-intro.html)
 - [clash折腾](https://yattazen.com/tutorial/clash-custom-config.html)
 - [主机折腾](https://flybace.com/category/diy)
 - [每日跟踪精彩的自托管更新](https://www.trackawesomelist.com/awesome-selfhosted/awesome-selfhosted/)
+- 新闻网站
+	- [国外聚合类](https://devurls.com/)
+	- [科技爱好者周刊](https://github.com/ruanyf/weekly)
+	- [hacker news](https://news.ycombinator.com/)
+	-
 - 高质量技术
 	- [[前端]]
 		- [**偏右悄悄地**](https://www.zhihu.com/people/afc163/answers)
@@ -24,5 +33,4 @@
 	- [知乎收藏夹](https://www.zhihu.com/people/teng-xiao-ran-85-88/collections)
 	- [github收藏](https://github.com/snake34475?tab=stars)
 - [区块链科普](https://github.com/xianfeng92/Love-Ethereum)
-- [科技爱好者周刊](https://github.com/ruanyf/weekly)
 -
