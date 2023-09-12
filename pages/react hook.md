@@ -1,0 +1,10 @@
+- useEffect
+	- 参考
+		- [react中文文档useeffect](https://react.docschina.org/reference/react/useEffect)
+	- 概念
+		- 纯函数
+			- 对于相同的输入，永远会返回相同的输出，并且对外界不会有任何副作用（影响）
+		- 副作用函数
+			- 函数运行，除了有返回值，还对主调用函数产生影响被称为副作用函数
+			- > useEffect  是在react更新dom之后执行的额外代码
+			-
