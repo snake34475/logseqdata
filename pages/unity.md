@@ -3,6 +3,7 @@
 	- [什么是(携程)IEnumerator](https://blog.csdn.net/beihuanlihe130/article/details/76098844)
 		- 调用携程的时候，不要将执行函数的对象设置为不可见，否则不会执行
 	- [[数据库]]
+	  collapsed:: true
 		- [数据库动态链](https://juejin.cn/post/6997660118032597029)
 			- 他的动态链引入可能会有问题，应该去
 			- ```js
@@ -20,4 +21,8 @@
 		  ```
 			-
 			-
+	- 热更新
+		- [huato](https://hybridclr.doc.code-philosophy.com/docs/beginner/quickstart)
+			- 常见问题
+				- 需要从vsinstall中重装c++，需要从unity中装IL2CCP
 -
