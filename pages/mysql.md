@@ -1,4 +1,20 @@
-- ## 命令
+## 命令
+	- 总结常用
+		- ```
+		  #select
+		  limit 0,2
+		  
+		  ##where
+		  =
+		  != <>
+		  like %value%
+		  is null
+		  between 1 and 2
+		  and
+		  or
+		  ## order by
+		  desc 倒叙
+		  ```
 	- 最常用
 		- ```mysql
 		  
@@ -36,7 +52,7 @@
 		  select * from students;-- 查询所有
 		  select distinct 列名称 from 表名称;  --检索列中不同的值
 		  select 列名 from 表名 limit 5 offset 4 --offset表示从第几行开始，limit表示选第几个，表示从4开始选五个
-		  select 列名 from 表名 limit 4,5 --同上
+		  select 列名 from 表名 limit 4,5 --同上 注意这个位置是相反的
 		  
 		  # 查询-过滤数据 支持=、>、<、>=、<、!=,!<,!>,<>,  is [not] null、in、like 等等等
 		  select 列名称 from 表名称 where 条件; 
@@ -45,7 +61,7 @@
 		  select * from students where sex<>'女'; -- 和上面同，但是Microsoft Access支持这种不支持上面的
 		  select * from students where name like "%王%"; -- 查询名字中带有 "王" 字的所有人信息
 		  select * from students where id<5 and age>20; -- 查询id小于5且年龄大于20的所有人信息:
-		  select * from students where is null; --判断空值
+		  select * from students where name is null; --判断空值
 		  select * from students where id between 1 and 8; #寻找1-8中的值
 		  select * from students where id<>6 and id between 1 and 8; #通过and符链接
 		   select name,sex from students where age=12 or sex='女';#通过or连接，尽量使用圆括号包裹

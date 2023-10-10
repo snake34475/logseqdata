@@ -18,11 +18,35 @@
 		  连接mysql8.0一直提示异常，尝试了下低版本的可以
 		  //进入mysql之后，执行一下命令即可降级8.0的身份验证方式从而成功连接
 		  ALTER USER 'username'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password';
+		  
+		  ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY '8700188'
 		  ```
 			-
-			-
+	-
+	-
+	- 获取不到初始active为false的物体
+		- 可以通过transform获取到
+		- ```
+		  GameObject.Find("Main Camera").transform.Find("登录").gameObject.SetActive(true);
+		  ```
 	- 热更新
 		- [huato](https://hybridclr.doc.code-philosophy.com/docs/beginner/quickstart)
 			- 常见问题
 				- 需要从vsinstall中重装c++，需要从unity中装IL2CCP
+	- 常用方法
+		- ```c#
+		  //数组转化成字符串
+		  new string()
+		  .ToString();
+		  
+		  //转化成整数
+		  int.Parse();
+		  
+		  //字符串转化成数组
+		  .ToCharArray();
+		  
+		  string.Empty; //空字符串
+		  Count适用于集合，list，hashset
+		  length用于数组，字符串
+		  ```
 -
