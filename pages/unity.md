@@ -1,5 +1,19 @@
+- 关注博主
+	- [向宇](https://xiangyu.blog.csdn.net/)
 - unity常用方法
-	- [手把手进度条](https://blog.csdn.net/weixin_45375968/article/details/123754722)
+	- 关键词汇
+		- 状态机
+		- 行为树 [csdn](https://blog.csdn.net/flyTie/article/details/126440816)
+		- 热更新
+			- huato
+		- 多人联机
+			- 插件
+				- [[Unity]] Multiplay 官网
+				- Photon [[Unity]] Networking（PUN） 多人联机的unity插件，不用搭建服务端 免费同时20个人同时连接
+				- Mirror 免费
+				- 自定义
+		- 骨骼
+	- [手把手进度条](https://blog.csdn.net/weixin_45375968/article/details/123754722)、
 	- [什么是(携程)IEnumerator](https://blog.csdn.net/beihuanlihe130/article/details/76098844)
 		- 调用携程的时候，不要将执行函数的对象设置为不可见，否则不会执行
 	- [[数据库]]
@@ -49,4 +63,6 @@
 		  Count适用于集合，list，hashset
 		  length用于数组，字符串
 		  ```
--
+	- 开发收藏文章
+		- [# 手把手教你C#如何使用SqlSugar操作MySQL数据库](https://blog.csdn.net/qq_42461824/article/details/128824999)
+		- [多人聊天室](https://blog.csdn.net/qq_42461824/article/details/85646260)
