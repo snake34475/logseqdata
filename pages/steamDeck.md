@@ -38,7 +38,22 @@
 		- 结果，a1红卡就够
 	- [steam deck安装第三方游戏](https://bbs.a9vg.com/thread-8869286-1-1.html)
 	- [如何装epic](https://www.coolapk.com/feed/42469989?shareKey=MzA4OTQ3ODdhZDExNjQ3NTU3MDc~&shareUid=25102075&shareFrom=com.coolapk.market_13.1.3)
-	-
+	- 使用winscp进行文件传输
+		- ```
+		  首次需要进入桌面环境，然后打开Konsole终端，输入下面两条命令。
+		  
+		  1. 如果之前没有给当前用户`deck`设置过密码，先使用如下命令设置密码
+		  passwd
+		  2.启动SSH服务
+		  sudo systemctl start sshd
+		  这里会让输入刚刚设置的密码，没有显示。
+		  
+		  
+		  3.【可选】这条命令是让sshd作为后台服务一直运行，建议设置，以后在[[游戏]]界面也能远程连接，非常方便。
+		  sudo systemctl enable sshd
+		  
+		  在winscp上 用户名是deck 密码是你的user密码
+		  ```
 -
 - ### 小技巧
 	- 如果使用unity或虚幻引擎，使用Vulkan图形api可以获得最佳性能和续航（注意：Proton 包括一个 DirectX 至 Vulkan 转译层。 如果您的[[游戏]]或引擎具有高质量的 DirectX 支持却没有 Vulkan 支持，那么使用此自动转译层很可能会比使用自定义 Vulkan 实现获得更好的性能。）
