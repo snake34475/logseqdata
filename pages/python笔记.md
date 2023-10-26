@@ -20,14 +20,11 @@
 	  
 	  ```
 - ## 数据类型
-  collapsed:: true
 	- ### 整数
 	- ### 浮点数
 	- ### 字符串
-	  collapsed:: true
 		- [字符串方法](https://docs.python.org/3/library/stdtypes.html#string-methods)
 		- 占位符
-		  collapsed:: true
 			- | 占位符 | 替换内容 |
 			  | ---- | ---- | ---- |
 			  | %d | 整数 |
@@ -38,13 +35,11 @@
 			  print("我是 %s" %"王腾瑶")
 			  ```
 		- format()格式化
-		  collapsed:: true
 			- ```python
 			  >>> 'Hello, {0}, 成绩提升了 {1:.1f}%'.format('小明', 17.125)
 			  'Hello, 小明, 成绩提升了 17.1%'
 			  ```
 		- f-string （常用）
-		  collapsed:: true
 			- ```python
 			  >>> r = 2.5
 			  >>> s = 3.14 * r ** 2
@@ -70,17 +65,13 @@
 		- isinstance(item,str) 判断是否为字符串类型
 		-
 	- ### 布尔值
-	  collapsed:: true
 		- True
 		- False
 	- ### 空值
-	  collapsed:: true
 		- None
 	- ### 常量
-	  collapsed:: true
 		- PI也就是3.1415926
 	- ### list 列表
-	  collapsed:: true
 		- 长度元素可变
 		- 方法
 			- len()获取长度
@@ -114,7 +105,6 @@
 			- range(num) 生成0到num的序列
 			-
 	- ### tuple 元组
-	  collapsed:: true
 		- tuple和list非常类似，但是tuple一旦初始化就不能修改
 		      不可变的tuple有什么意义？因为tuple不可变，所以代码更安全。如果可能，能用tuple代替list就尽量用tuple。
 		- 例子
@@ -139,7 +129,6 @@
 			  ```
 		-
 	- ### dict 字典
-	  collapsed:: true
 		- 对比dict特点
 			- 查找和插入的速度极快，不会随着key的增加而变慢；
 			- 需要占用大量的内存，内存浪费多。
@@ -166,7 +155,6 @@
 				  ```
 		-
 	- ### set
-	  collapsed:: true
 		- key的集合，不存value
 		- 方法
 			- add
@@ -201,7 +189,6 @@
 			  ```
 		-
 	- ### 函数
-	  collapsed:: true
 		- [官方文档](https://docs.python.org/3/library/functions.html#abs)
 		- 使用属性名称传参
 		  collapsed:: true
@@ -303,9 +290,7 @@
 			- `*args`是可变参数，args接收的是一个tuple；
 			- `**kw`是关键字参数，kw接收的是一个dict。
 - ## 高级特性
-  collapsed:: true
 	- ### 取片
-	  collapsed:: true
 		- 可以操作字符串，元组，数组
 		- ```python
 		  >>> L[0:3]
@@ -318,7 +303,6 @@
 		  [0, 2, 4, 6, 8]
 		  ```
 	- ### 迭代
-	  collapsed:: true
 		- 数组 下标+值
 			- ```python 
 			  >>> for i, value in enumerate(['A', 'B', 'C']):
@@ -329,7 +313,6 @@
 			  2 C
 			  ```
 	- ### 列表生成
-	  collapsed:: true
 		- list(range(1, 11))
 		- 列表生成式
 		- [结果 for 变量 in 列表(或元组等) 判断/循环]
@@ -340,7 +323,6 @@
 	- ### generator 生成器（没看）
 	- ### 迭代器（没看）
 - ## 函数编程
-  collapsed:: true
 	- ## 函数式编程
 	  collapsed:: true
 		- 任意一个函数，只要输入是确定的，输出就是确定的，这种纯函数我们称之为没有副作用。
@@ -477,7 +459,6 @@
 		  85
 		  ```
 - ## 模块
-  collapsed:: true
 	- >每个包都有一个 `__init__py`文件，必须存在，否则会认为是普通目录而不是包
 	- > 自己创建模块时要注意命名，不能和Python自带的模块名称冲突。例如，[[系统]]自带了sys模块，自己的模块就不可命名为sys.py，否则将无法导入[[系统]]自带的sys模块。
 	-
@@ -512,7 +493,6 @@
 		- `_xxx`或`__xxx`不应该直接被引用
 		- 不应该而不是不能，应该写一个函数去返回他们的值
 - ## 面向对象（OOP）
-  collapsed:: true
 	- 特点 ：数据封装、继承和多态是面向对象的三大特点
 	- ### 类和实例
 		- 注意
@@ -547,7 +527,6 @@
 			              raise ValueError('bad score')
 			  ```
 	- ### 继承多态
-	  collapsed:: true
 		- > 从当前class继承，新的class被称为子类（Subclass），而当前被称为基类，父类或超类（Base class，Super class）
 		- 特点
 			- 继承后有他的全部功能
@@ -569,7 +548,6 @@
 		          print('Eating meat...')
 		  ```
 	- ### 获取对象类型
-	  collapsed:: true
 		- type
 			- 支持
 				- 基本类型
@@ -627,10 +605,8 @@
 	- ### 实例属性和对象
 	-
 - ## 面向对象高级编程
-  collapsed:: true
 	- ###  动态添加方法
 		- #### 类添加
-		  collapsed:: true
 			- ```python
 			  >>> def set_score(self, score):
 			  ...     self.score = score
@@ -638,7 +614,6 @@
 			  >>> Student.set_score = set_score
 			  ```
 		- #### 实例添加
-		  collapsed:: true
 			- ```python
 			  >>> def set_age(self, age): # 定义一个函数作为实例方法
 			  ...     self.age = age
@@ -650,7 +625,6 @@
 			  25
 			  ```
 	- ### 限制实例的属性
-	  collapsed:: true
 		- 仅对当前实例有用
 		- ```python
 		  >>> s = Student() *# 创建新的实例*
@@ -663,7 +637,6 @@
 		  ```
 	- 后续没有看（等候补）
 - ## 异常
-  collapsed:: true
 	- 错误处理
 		- try
 		  collapsed:: true
@@ -695,7 +668,6 @@
 			- `logging.info()`
 		-
 - ## IO编程
-  collapsed:: true
 	- ###  文件读写
 	  collapsed:: true
 		- ```python
@@ -731,7 +703,6 @@
 			  ```
 	- ### 缓存
 		- #### StingIO
-		  collapsed:: true
 			- ```python
 			  ## 写入
 			  form io import StringIO
@@ -749,7 +720,6 @@
 			    print(s.strip())
 			  ```
 		- #### BytesIO
-		  collapsed:: true
 			- ```python
 			  form io import BytesIO
 			  f=BytesIO()
@@ -761,7 +731,6 @@
 			  >>> f.read()
 			  ```
 	- ### 操作文件目录
-	  collapsed:: true
 		- ```python
 		  >>> import os
 		  >>> os.name # 操作系统类型
@@ -816,7 +785,6 @@
 		-
 	-
 - ## 访问[[数据库]]
-  collapsed:: true
 	- ## SQLite
 		- {{embed [[SQLite]]}}
 - ## 异步IO
