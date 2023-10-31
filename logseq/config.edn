@@ -245,7 +245,7 @@
  :ref/linked-references-collapsed-threshold 50
 
  ;; Favorites to list on the left sidebar
- :favorites ["线上样式有问题但本地没问题" "steamdeck" "swot"]
+ :favorites ["青岛[[旅游]]攻略" "线上样式有问题但本地没问题" "steamdeck" "swot"]
 
  ;; any number between 0 and 1 (the greater it is the faster the changes of the next-interval of card reviews) (default 0.5)
  ;; :srs/learning-fraction 0.5
