@@ -1,0 +1,16 @@
+- **2023年10月28日更新。**
+- 前言：如果你所在地区**不翻墙的情况下无法打开**github.com网站，那么可以通过**github镜像网站**访问github，或者通过**修改电脑本地hosts文件**来访问github。
+- ---
+- **一：通过github镜像网站访问github**
+- github镜像站点1：[https://bgithub.xyz](https://bgithub.xyz/)
+- github镜像站点2：[https://agithub.xyz](https://agithub.xyz/)
+- github镜像站点3：[https://githubfast.com](https://githubfast.com/)
+- ---
+- **二：修改电脑本地hosts文件访问github**
+- 具体方法：
+- [https://ineo6.github.io/hosts](https://ineo6.github.io/hosts)
+- 备用地址：
+- [https://gitlab.com/ineo6/hosts](https://gitlab.com/ineo6/hosts)
+- [https://github.com/ineo6/hosts](https://github.com/ineo6/hosts)
+- 最新DNS新方案（定时更新）：[https://gitlab.com/ineo6/hosts/-/raw/master/next-hosts](https://gitlab.com/ineo6/hosts/-/raw/master/next-hosts)
+- 原理：[https://zhuanlan.zhihu.com/p/107334179](https://zhuanlan.zhihu.com/p/107334179)
