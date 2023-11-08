@@ -19,3 +19,11 @@
 			- 获取tags的类型，进行tags的插入
 		- 获取
 			- 根据浏览量正序取5条
+- ```js
+  //取出 排序的范围值
+  redis.zrevrange(key, 0, 4).then(async (data) => {})
+  //写入 分值
+   redis.zadd(fapp + ':a_like', key, 0)
+  //获取分值的值
+  redis.zscore(fapp + ':a_view', key).then(view => {}）
+  ```

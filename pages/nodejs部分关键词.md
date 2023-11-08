@@ -2,12 +2,24 @@
 - deno创始人 Ryan Dahl
 - [cnode](https://cnodejs.org/) nodejs专业中文社区
 -
+- web标准
+	- WHATWG
+		- 全称 web Hypertext application Technology working group (网络超文本应用技术工作组)
+		- 是针对HTML相关技术的工作组创创立的，为了推动web发展，特别关注浏览器实现和开发需求，最著名是HTML Living Standard（HTML5的维护版本）。WHATWG的成员包括各大浏览器厂商，如谷歌、苹果、微软等。
+	- W3C
+		- 全称Word Wide web Consortium （万维网联盟）
+		- 成立于1994，由互联网先驱 Tim berners-Lee创建
+		- 负责指定和发布一系列web标准包，括HTML、CSS、XML、Web服务、安全性等方面的标准。W3C采用开放的工作组制度，会员包括各个领域的组织和个人。
+-
 - Runtime（运行时）更多的解释请看 [运行时（runtime）是什么意思？应该怎样深入且直观地理解？ - doodlewind的回答 - 知乎](https://www.zhihu.com/question/20607178/answer/2133648600)
   id:: 6549c9eb-bb4c-4a4f-810b-ce241d421fca
 	- 程序运行时：指程序生命周期的阶段
 	- 运行时库：例如glibc原生语言的标准库
 	- 运行时[[系统]]：某门语言的宿主环境，例如 nodejs是js的运行时
-	- runtime描述程序运行时执行的指令'
+	- runtime描述程序运行时执行的指令
+- esm和cjs
+	- esm是官方的导入导出
+	- cjs是社区中开发的commonjs，主要用于服务端
 - crud
 	- 创建create、读取read、更新update、删除delete
 - 技术
@@ -20,23 +32,32 @@
 	- [Nuxt.js](https://nuxtjs.org)
 		- 构建优雅的vuejs应用程序框架，
 		- 服务端渲染，异步加载
-	- [bun.js](https://bun.sh/)
-		- [Bun 1.0 正式发布，爆火的前端运行时，速度遥遥领先！](https://juejin.cn/post/7277387014046335010)
-		- 消除js工具链的缓慢和复杂，保留js本身优点，自身能够替代nodejs，转义器babel，构建工具webpack，包管理兼容，速度特别快，比nodejs快四倍，内置websocket支持，内置sqlit支持
-		- 发布与2022年9月8日 部分node功能没有做完
 	- [deno](https://deno.com/)
 		- 他是写服务端js的全新方法，和nodejs相似，写小工具可以
 		- 下一代js运行时 ts和jsx支持 向后兼容nodejs 使用rust和tokio实现异步io
 		- 具有权限控制，只能访问明确授权的文件，网络和环境变量
 		- 可以使用浏览器的导入导出 import和export
+	- [bun.js](https://bun.sh/)
+		- [Bun 1.0 正式发布，爆火的前端运行时，速度遥遥领先！](https://juejin.cn/post/7277387014046335010)
+		- 消除js工具链的缓慢和复杂，保留js本身优点，自身能够替代nodejs，转义器babel，构建工具webpack，包管理兼容，速度特别快，比nodejs快四倍，内置websocket支持，内置sqlit支持
+		- 发布与2022年9月8日 部分node功能没有做完
+	- [winterCG](https://wintercg.org/)
+		- cloudfalre，nodejs，deno合作的社区组,致力于让不同的js运行时便携可移植代码，包括浏览器，服务端，嵌入式等
+		- 目前定位是与现在webapi标准规范组织合作（WHATWG，W3C）合作，统一浏览器端和非浏览器端
 	- rust
 		- node在前端开发环境工具链上慢慢被rust吃掉，能用rust重写的npm都会用rust重写一遍
 	- ORM库
+		- orm是 Object-Relational Mapping 对象关系映射的缩写，简化与数据库的交互
 		- [Prisma](https://www.prisma.io/)
 			- 开发团队很倔，UTC 时间问题，Transcation 问题这些硬伤就是不解决。但是他们有资本投入有开发团队
 			- 文档很垃圾
 		- [typeorm](https://typeorm.bootcss.com/)据说好用
-	- 网络请求
+	- find-my-way
+		- 快速的http路由框架 基于radix tree开发的路由框架，支持路由参数通配符
+		- [find-my-way nodejs 快速的http 路由框架](https://www.cnblogs.com/rongfengliang/p/17495967.html)
+	- [fastify](https://www.fastify.cn/)
+		- 快速低消的web框架，专为nodejs打造
+	- 网络方式
 		- tRPC
 			- 全称：Transient receptor potential canonical
 			  全栈必定要学的，是一个库
