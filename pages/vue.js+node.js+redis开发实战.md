@@ -29,4 +29,7 @@
   //获取分值的值
   redis.zscore(fapp + ':a_view', key).then(view => {}）
   ```
+- 经常遇到的问题
+	- Cannot set headers after they are sent to the client
+		-
 -

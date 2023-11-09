@@ -1,0 +1,5 @@
+- 常用eslint配置
+	- [阿里大佬](https://github.com/PanJiaChen/vue-element-admin/blob/master/.eslintrc.js)
+	- [饿了么团队的eslint配置](https://www.npmjs.com/package/eslint-config-elemefe)
+	- [vuejs团队的eslint配置](https://github.com/vuejs/eslint-config-vue)
+	-
