@@ -19,6 +19,8 @@
 			- 获取tags的类型，进行tags的插入
 		- 获取
 			- 根据浏览量正序取5条
+	- 困难的接口
+		- 其他权限判断
 - ```js
   //取出 排序的范围值
   redis.zrevrange(key, 0, 4).then(async (data) => {})
@@ -27,3 +29,4 @@
   //获取分值的值
   redis.zscore(fapp + ':a_view', key).then(view => {}）
   ```
+-
