@@ -1,7 +1,11 @@
 - #数据库
 - 运行命令
   id:: 642fe3f2-2c92-46a0-8d55-33706fd61e70
-  ```
+  ```bash
+  redis-server.exe
+  
+  #出现积极拒绝使用
+  redis-server.exe redis.windows.conf
   redis-server.exe
   ```
 - 对redis的简单操作
