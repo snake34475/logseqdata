@@ -21,6 +21,7 @@
 		- [[vue]]
 		  id:: 654c7136-5fd2-4dc6-be8e-16c76e2cb285
 		- [[vue3]]
+			- [[Pinia]]
 		- [[react]]
 		- [[js]]
 			- [[js一些技巧]]

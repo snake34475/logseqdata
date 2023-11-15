@@ -1,12 +1,65 @@
 - [官方文档](https://cn.vuejs.org/guide/quick-start.html)
 - 模板类
 	- [v3-admin-vit模块文档](https://juejin.cn/post/7089377403717287972)
+- 组件库
+	- [antdv](https://www.antdv.com/components/overview)
+	- [element-plus](https://element-plus.org/zh-CN/)
+	-
+- 关键词
+	- SFC（Single-File Componen）单文件组件
+	- RFC（request for comments）[请看介绍](https://github.com/vuejs/rfcs)
+		- 简单来说文件通过讨论，审查，修改，改进，达成共识之后进入实时
 - ref
 	- 如果子组件使用选项式api，父组件每对子组件的每一个方法和属性都有完全访问权
 	- expose限制访问
 		- ```js
 		   expose: ['publicData', 'publicMethod'],//只能访这些数据或方法
 		  ```
+- 组合式函数
+	- 封装组件
+		- 可以看到，和react几乎一样，只是ref可以认为是usestate
+		- ```js
+		  //组件方法
+		  // mouse.js
+		  import { ref, onMounted, onUnmounted } from 'vue'
+		  
+		  // 按照惯例，组合式函数名以“use”开头
+		  export function useMouse() {
+		    // 被组合式函数封装和管理的状态
+		    const x = ref(0)
+		    const y = ref(0)
+		  
+		    // 组合式函数可以随时更改其状态。
+		    function update(event) {
+		      x.value = event.pageX
+		      y.value = event.pageY
+		    }
+		  
+		    // 一个组合式函数也可以挂靠在所属组件的生命周期上
+		    // 来启动和卸载副作用
+		    onMounted(() => window.addEventListener('mousemove', update))
+		    onUnmounted(() => window.removeEventListener('mousemove', update))
+		  
+		    // 通过返回值暴露所管理的状态
+		    return { x, y }
+		  }
+		  
+		  //  在组件中使用
+		  <script setup>
+		  import { useMouse } from './mouse.js'
+		  
+		  const { x, y } = useMouse()
+		  </script>
+		  
+		  <template>Mouse position is at: {{ x }}, {{ y }}</template>
+		  ```
+	- 异步请求
+		- 接收响应式状态
+		- toValue
+			- 3.3新增，将ref或getter规范成值，ref和函数都会成值，否则返回输入
+	- 命名
+		- 通常使用use开头的驼峰
+		-
 - 指令语法
 	- https://cn.vuejs.org/assets/directive.69c37117.png
 - 响应式
