@@ -1,3 +1,6 @@
+- [图标项目](https://github.com/ryanoasis/nerd-fonts#font-installation)
+-
+-
 - 折腾
 	- 权限不足
 		- `chmod +x 文件名`
@@ -8,9 +11,16 @@
 		- ```bash
 		  brew tap homebrew/cask-fonts
 		  brew cask install font-fira-code
+		  # rew install --cask font-fira-code
 		  brew install font-sourcecodepro-nerd-font
 		  ```
 	- 发现之前装的clashx是阉割版，什么tun都不能开，这样使用命令行的时候无法实现全局代理[解决方案](https://github.com/Fndroid/clash_for_windows_pkg/releases)
+		- 可以通过解决
+		- ```bash
+		  # 注意修改成自己的IP和端口号
+		  git config --global http.proxy http://127.0.0.1:7890 
+		  git config --global https.proxy http://127.0.0.1:7890
+		  ```
 	- brew问题
 		- ```bash
 		  #遇到这种错误
@@ -32,4 +42,7 @@
 			  cp ~/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc
 			  ```
 		- 解决图标问题[字体地址](https://github.com/romkatv/dotfiles-public/blob/master/.local/share/fonts/NerdFonts/MesloLGS%20NF%20Regular.ttf)然后撞到~/libray/font里面，在 iterm2 中选中该字体
-	-
+	- [解决vscode中不展示图标](https://blog.csdn.net/albertjone/article/details/86760661) 主要是通过命令面板，将iterm的字体粘到vscode之中
+	- iterm图标不展示？
+		- 首先先看看字体安装了吗
+		- 高亮必须勾选 ![image.png](../assets/image_1700562722131_0.png)

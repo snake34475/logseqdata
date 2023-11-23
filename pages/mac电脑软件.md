@@ -13,10 +13,10 @@
 - sudo killall -STOP -c usbd     usb闪烁
 - ### m1兼容性
 	- node的话不兼容node15以下的版本，都是基于rosetta2 的 terminal 安装。15.x 以下的 nodejs 版本，推荐使用 Visual Studio Code - Insiders 来运行项目，15.x 及以上的 nodejs 版本，则直接使用默认的 Visual Studio Code 。
-## 文件只读
-
-mac中文件
-## zsh
+- ## 文件只读
+  
+  mac中文件
+- ## zsh
 - ### 使用系统自带的 zsh
 	- ```
 	  chsh -s /bin/zsh
@@ -36,3 +36,4 @@ mac中文件
 	  ```
 	  
 	  [mac bash终端显示分支名称](https://blog.csdn.net/qq_34497272/article/details/107437271)
+-
