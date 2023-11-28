@@ -1,0 +1,4 @@
+- [mac抓包工具破解用](https://www.zzzmode.com/mytools/charles/)
+- https抓包
+	- [配置教程](https://juejin.cn/post/7186531442518655034)
+	- [解决证书不被信任](https://blog.csdn.net/m0_69311191/article/details/129285776) 在钥匙串中选择系统，找到charles的证书，点击信任之后就能抓包了以后

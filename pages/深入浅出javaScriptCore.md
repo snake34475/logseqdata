@@ -1,0 +1,15 @@
+- 关键词
+	- WebKit
+		- 浏览器内核，浏览器渲染引擎
+		- 2003年苹果发布safari浏览器并放出核心源码webKit
+	- Chromium
+		- 2008年谷歌基于webKit 建立一个分支（fork） Chromium 从而开发Chrome
+- WebKit结构
+	- ![](https://pic1.zhimg.com/v2-8fa19bbfacd897295d3f1789de83cca0_r.jpg)
+	- webKit Embedding API 浏览器ui与webkit交互部分
+	- platform API 处理不同操作系统环境的兼容性
+- WebCore
+	- 核心渲染引擎
+	-
+- 引用
+	- [深入浅出javaScriptCore](https://zhuanlan.zhihu.com/p/81634837)

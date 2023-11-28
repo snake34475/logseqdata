@@ -1,0 +1,1 @@
+- 救命网站[mac和window安装教程](https://docs.gtk.pw/)
