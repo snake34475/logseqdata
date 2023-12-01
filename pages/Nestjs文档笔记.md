@@ -61,3 +61,12 @@
 	- 小模块导出使用exports导出，引入使用import
 	- 共享实例，可以export服务，然后在其他模块引入模块之后可以共享实例
 	- 考虑下动态模块如何使用
+- ## [Middleware](https://docs.nestjs.com/middleware)
+	- 中间件可以认为是js的proxy代理，它通常用于给路由添加一些中间操作
+	- 如果需要写的中间件不需要依赖任何东西和附加方法，那么可以使用functional middleware，相当于直接启一个类
+- ## [Exception filters](https://docs.nestjs.com/exception-filters)
+	- 两个参数，第一个是message，第二个是状态码
+	- ```js
+	  throw new HttpException('Forbidden', HttpStatus.FORBIDDEN);
+	  ```
+-
