@@ -33,7 +33,6 @@
 			- [[Pinia]]
 		- [[react]]
 		- [[js]]
-		  collapsed:: true
 			- [[js一些技巧]]
 			- [[js常用的监听事件]]
 			- [[学习 awesome-coding-js]]
@@ -50,6 +49,7 @@
 			- [[一键三屏源码]]
 			- [[h5嵌入pdf编辑器支持缩放]]
 	- [[后端]]
+		- [[接口文档]]
 		- [[python]]
 		  collapsed:: true
 			- [[python笔记]]
@@ -63,6 +63,7 @@
 		- [[php]]
 		- [[nodejs]]
 			- [[npm]]
+			- [[常用npm插件]]
 			- [[nodejs部分关键词]]
 			- [[七天学会Nodejs笔记]]
 			  collapsed:: true
