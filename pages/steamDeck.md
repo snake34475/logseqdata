@@ -53,6 +53,8 @@
 		  sudo systemctl enable sshd
 		  
 		  在winscp上 用户名是deck 密码是你的user密码
+		  
+		  /run/media/deck/f494f7d6-c16f-44fc-8179-e1f53fc2bc24/steamapps/common 内存卡游戏路径
 		  ```
 -
 - ### 小技巧
