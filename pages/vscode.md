@@ -1,1 +1,12 @@
+- 调教vscode
+	- 全局搜索太卡
+		- Follow Symlinks取消
+		- Use Ignore Files 全勾选 参考[VS Code全局搜索(Search, Ctrl+Shift+F)内容不全的解决方法之一：修改Settings](https://cloud.tencent.com/developer/article/1877412)
+- 插件
+	- css peek 可以实现class的跳转
+	- css modules 可以实现styles命名的class跳转
+	- vue-jumptotag vue跳转标签跳转到定义
+	- [如何让vscode识别@的跳转](https://www.jianshu.com/p/1798d57ecdab)
+- [webstorm转vscode必装插件](https://www.jianshu.com/p/dc2f1c7ace29)
 - [前端插件配置](https://github.com/varHarrie/varharrie.github.io/issues/10)
+-
