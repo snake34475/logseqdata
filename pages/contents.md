@@ -39,6 +39,7 @@
 		- [[vue3]]
 			- [[Pinia]]
 		- [[react]]
+			- [[react函数组件父子传参]]
 		- [[js]]
 		  collapsed:: true
 			- [[js一些技巧]]
