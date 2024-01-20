@@ -44,7 +44,6 @@
 		- [[react]]
 			- [[react函数组件父子传参]]
 		- [[js]]
-		  collapsed:: true
 			- [[js一些技巧]]
 			- [[js常用的监听事件]]
 			- [[学习 awesome-coding-js]]

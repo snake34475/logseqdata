@@ -1,4 +1,5 @@
-## 写css
+-
+- ## 写css
 	- ```js
 	  // 这种写css的方法多优雅
 	  canvas.style.cssText = [
@@ -8,6 +9,12 @@
 	        "left: 0",
 	        "pointer-events: none",
 	      ].join(";");
+	  ```
+	- ```js
+	  //控制台 使用%c为css占位符
+	  console.log('%cHello %cWorld', 
+	  'color: red; font-weight: bold',  
+	  'color: blue; font-style: italic');
 	  ```
 - 判断对象内有值
 	- ```js
