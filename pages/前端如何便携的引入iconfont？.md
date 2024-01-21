@@ -1,0 +1,5 @@
+- svg引入，需要兼容样式[参考链接](https://juejin.cn/post/7189164727485300793)
+- cdn引入（线上不可能）
+- 使用fontcss或unicode
+- 最终暂时使用了antd自带图标
+-
