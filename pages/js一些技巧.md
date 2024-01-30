@@ -30,3 +30,21 @@
 	- ```js
 	  const isServer = typeof window === 'undefined'
 	  ```
+- 数组自定义排
+	- ```js
+	  const _ = require('lodash');
+	  
+	  const cities = [
+	    { city: '上海', population: 24150000 },
+	    { city: '北京', population: 21710000 },
+	    { city: '河南', population: 96000000 },
+	    { city: '广州', population: 14000000 },
+	  ];
+	  
+	  const cityOrder = ['北京', '上海', '河南'];
+	  
+	  // 使用Lodash的sortBy函数进行排序
+	  const sortedCities = _.sortBy(cities, (city) => {
+	    return _.indexOf(cityOrder, city.city);
+	  });
+	  ```
