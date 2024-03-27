@@ -46,6 +46,7 @@
 		- [[大话设计模式笔记]]
 	- [[vscode]]
 	- [[前端]]
+	  collapsed:: true
 		- [[webpack优化]]
 		- [[css]]
 		- [[vue]]
@@ -103,6 +104,8 @@
 	  collapsed:: true
 		- [[mysql]]
 		- [[redis]]
+	- [[linux]]
+		- [[linux学习]]
 	- [[服务器]]
 	  collapsed:: true
 		- [[离线下载]]

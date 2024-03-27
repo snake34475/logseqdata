@@ -1,0 +1,4 @@
+- [鸟哥私房菜](https://wizardforcel.gitbooks.io/vbird-linux-basic-4e/content/1.html)
+- linux、unix、gun是什么关系
+	- Unxi系统被发明之后因为收费闭源了，RMS大叔发起GNU计划做开源版本，并自己做了编辑器Rmacs和编译器GCC，GNU是一个计划或活动，由于原定内核HURD一直完成不了，Linus同学在Minnix的启发下开发了Linux，Linux知识系统内核。因此合在一起打包发布叫做GNU/Linux
+- linux只是内核，debian，ubuntu是linux的发行版
