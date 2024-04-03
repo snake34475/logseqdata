@@ -1,5 +1,29 @@
 - 关注博主
 	- [向宇](https://xiangyu.blog.csdn.net/)
+- 学习网站
+	- www.consultdog.com
+- unity目录
+	- 资源目录
+		- StreamingAssets 存放打包为Assetbundle资源
+		- Resources 存放游戏包内资源
+	- 资源加载
+		- Resources 使用Resources.Load加载
+		- AssetBundle 使用Assetbundle.load 加载
+	- Resources 和 Assetbudle 特性
+		- Resources下的不能热更，只能带在包里面
+		- Assetbundle 可以热更，和平台相关，不能使用其他平台的资源
+	- 脚本目录 scripts
+		- 包含所有的脚本
+	- 场景目录
+		- Scences
+		- 修改SampleScence为Game并搭好根节点和相机
+	- Res 因为开发过程中需要频繁使用，所以新建一个目录放在Res中，不放在Resouce因为和steamingAssets需要频繁打包会含到游戏中，导致游戏包过大
+	- ![Replaced by Image Uploader](https://s2.loli.net/2024/04/02/gQIfWYNSkPBbUOH.png)
+	-
+- unity脚本设计
+	-
+	- 人物脚本
+	- 怪物移动路径曲线
 - unity常用方法
 	- 关键词汇
 		- 状态机
