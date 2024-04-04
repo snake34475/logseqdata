@@ -1,3 +1,5 @@
+- 图片裁剪 https://www.iloveimg.com/zh-cn
+- 图片压缩 https://docsmall.com/image-compress
 - 关注博主
 	- [向宇](https://xiangyu.blog.csdn.net/)
 - 学习网站
