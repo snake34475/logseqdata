@@ -51,6 +51,11 @@
 		  string.Empty; //空字符串
 		  Count适用于集合，list，hashset
 		  length用于数组，字符串
+		  
+		  //资源加载
+		  Resource.Load(); //加载resources目录
+		  AssetBundle.loadFromXXX(); //加载asset bundle
+		  UnityEditor.AssetDatabase.LoadAssetAtPath(); //加载其他文件夹
 		  ```
 	- 开发收藏文章
 		- [# 手把手教你C#如何使用SqlSugar操作MySQL数据库](https://blog.csdn.net/qq_42461824/article/details/128824999)
