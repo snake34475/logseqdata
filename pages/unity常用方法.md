@@ -1,16 +1,9 @@
 - unity常用方法
-	- 关键词汇
-		- 状态机
-		- 行为树 [csdn](https://blog.csdn.net/flyTie/article/details/126440816)
-		- 热更新
-			- huato
-		- 多人联机
-			- 插件
-				- [[Unity]] Multiplay 官网
-				- Photon [[Unity]] Networking（PUN） 多人联机的unity插件，不用搭建服务端 免费同时20个人同时连接
-				- Mirror 免费
-				- 自定义
-		- 骨骼
+	- json
+		- ```C#
+		  string str = JsonUtililty.ToJson();
+		  A a = JsonUtility.FromJson<A>(str)
+		  ```
 	- [手把手进度条](https://blog.csdn.net/weixin_45375968/article/details/123754722)、
 	- [什么是(携程)IEnumerator](https://blog.csdn.net/beihuanlihe130/article/details/76098844)
 		- 调用携程的时候，不要将执行函数的对象设置为不可见，否则不会执行
@@ -34,8 +27,6 @@
 		  ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY '8700188'
 		  ```
 			-
-	-
-	-
 	- 获取不到初始active为false的物体
 		- 可以通过transform获取到
 		- ```
@@ -64,3 +55,26 @@
 	- 开发收藏文章
 		- [# 手把手教你C#如何使用SqlSugar操作MySQL数据库](https://blog.csdn.net/qq_42461824/article/details/128824999)
 		- [多人聊天室](https://blog.csdn.net/qq_42461824/article/details/85646260)
+- 关键词汇
+	- 状态机
+	- 行为树 [csdn](https://blog.csdn.net/flyTie/article/details/126440816)
+	- 热更新
+		- huato
+	- 多人联机
+		- 插件
+			- [[Unity]] Multiplay 官网
+			- Photon [[Unity]] Networking（PUN） 多人联机的unity插件，不用搭建服务端 免费同时20个人同时连接
+			- Mirror 免费
+			- 自定义
+	- 骨骼
+	- 泛型
+		- defult关键词 不清楚类型参数为引用类型还是值类时使用
+		- where:new()含义
+			- 参数类型限制，表示必须为没有参数的构造函数
+			-
+			- ```
+			  where T:strust //必须是结构类型
+			  where T:class //必须是一个class类型
+			  where T:new() //必须要有一个无参数构造类型
+			  where T:NameOfBaseClass 必须继承名为NameOfClass的类
+			  ```
