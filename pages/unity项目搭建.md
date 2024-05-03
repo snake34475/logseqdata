@@ -17,4 +17,7 @@
 		- Scences
 		- 修改SampleScence为Game并搭好根节点和相机
 	- Res 因为开发过程中需要频繁使用，所以新建一个目录放在Res中，不放在Resouce因为和steamingAssets需要频繁打包会含到游戏中，导致游戏包过大
+	- 日志查找
+		- ![image.png](../assets/image_1714705017368_0.png)
+		-
 - mvc思想
