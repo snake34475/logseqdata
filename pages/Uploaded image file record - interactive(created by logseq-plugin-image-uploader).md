@@ -86,3 +86,4 @@
 	- ![Uploaded by Image Uploder](../assets/image_1709529305873_0.png)
 	- ![Uploaded by Image Uploder](../assets/image_1712072208060_0.png)
 	- ![Uploaded by Image Uploder](../assets/image_1712139615017_0.png)
+	- ![Uploaded by Image Uploder](../assets/image_1714992172435_0.png)
