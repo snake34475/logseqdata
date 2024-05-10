@@ -87,3 +87,4 @@
 	- ../assets/image_1712072208060_0.png
 	- ../assets/image_1712139615017_0.png
 	- ../assets/image_1714992172435_0.png
+	- ../assets/image_1715236477572_0.png
