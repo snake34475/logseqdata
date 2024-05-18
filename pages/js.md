@@ -21,4 +21,6 @@
 		- 为什么第三个是false，因为instanceof是通过_proto_与prototype的引用地址进行对比的，但是null位于原型链的顶端没有prototype不存在原型对象
 	- ## 文章参考
 		- 文章链接[详谈JavaScript原型链](https://www.cnblogs.com/chengzp/p/prototype.html)
+- 函数尾调用
+- [this指向](https://blog.csdn.net/chen_junfeng/article/details/109235442)
 -
